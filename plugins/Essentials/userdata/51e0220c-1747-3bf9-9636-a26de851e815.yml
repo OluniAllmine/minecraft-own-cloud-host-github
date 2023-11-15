@@ -1,0 +1,44 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 0:0:0:0:0:0:0:1%0
+afk: true
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1699967722467
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1700061617141
+  login: 1700061682442
+  kits:
+    osn: 1699952914916
+    vip: 1699952910216
+    vip+: 1699952905966
+    mvp: 1699952892168
+    mvp+: 1699952898867
+money: '0'
+last-account-name: Oluni_Official
+logoutlocation:
+  world: 13eaab49-6447-4c2d-ac0c-6dfde84d0103
+  world-name: world
+  x: -264.4486903590816
+  y: 165.0
+  z: -421.8887390287488
+  yaw: 155.7234344482422
+  pitch: 21.05921173095703
+lastlocation:
+  world: 13eaab49-6447-4c2d-ac0c-6dfde84d0103
+  world-name: world
+  x: -274.5
+  y: 140.0
+  z: -449.5
+  yaw: 119.55380249023438
+  pitch: 21.27604866027832

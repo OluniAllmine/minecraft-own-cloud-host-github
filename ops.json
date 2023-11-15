@@ -1,1 +1,8 @@
-[{}]
+[
+  {
+    "uuid": "178f7a59-19a2-34c0-bddc-7836fb8a5c6b",
+    "name": "Oluni",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]

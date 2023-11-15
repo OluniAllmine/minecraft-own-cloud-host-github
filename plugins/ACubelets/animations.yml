@@ -1,0 +1,103 @@
+#
+# This is the animations settings file.
+# You can change any setting that are in this file
+#
+# If you want to reset a setting back to the default,
+# delete the entire line of the setting is on and restart the plugin.
+#
+
+animations:
+
+  animation_0:
+    DisplayName: No animation
+    OutlineParticles: true
+    FloorParticles: true
+
+  animation_1:
+    DisplayName: Animation 1
+    AroundParticles: true
+
+  animation_2:
+    DisplayName: Animation 2 (Default)
+    OutlineParticles: true
+    FloorParticles: true
+
+  animation_3:
+    DisplayName: Animation 3
+    OutlineParticles: true
+    FloorParticles: true
+
+  animation_4:
+    DisplayName: Animation 4
+    OutlineParticles: true
+    FloorParticles: true
+
+  animation_5_summer:
+    DisplayName: Animation 5 (Summer)
+    OutlineParticles: true
+    FloorParticles: true
+
+  animation_6_easter:
+    DisplayName: Animation 6 (Easter)
+    OutlineParticles: true
+    FloorParticles: true
+
+  animation_7_halloween:
+    DisplayName: Animation 7 (Halloween)
+    OutlineParticles: true
+    FloorParticles: true
+
+  animation_8_christmas:
+    DisplayName: Animation 8 (Christmas)
+    OutlineParticles: true
+    FloorParticles: true
+
+  animation_9:
+    DisplayName: Animation 9
+    OutlineParticles: true
+    FloorParticles: true
+
+  animation_10:
+    DisplayName: Animation 10
+    OutlineParticles: true
+    FloorParticles: true
+
+  animation_11_galaxy:
+    DisplayName: Animation 11 (Galaxy)
+    OutlineParticles: true
+    FloorParticles: true
+
+  animation_12:
+    DisplayName: Animation 12
+    OutlineParticles: true
+    FloorParticles: true
+
+  animation_13:
+    DisplayName: Animation 13
+    OutlineParticles: true
+    FloorParticles: true
+
+  animation_14:
+    DisplayName: Animation 14
+    OutlineParticles: true
+    FloorParticles: true
+
+  animation_15:
+    DisplayName: Animation 15
+    OutlineParticles: true
+    FloorParticles: true
+
+  animation_16:
+    DisplayName: Animation 16
+    OutlineParticles: true
+    FloorParticles: true
+
+  animation_17:
+    DisplayName: Animation 17
+    OutlineParticles: true
+    FloorParticles: true
+
+  animation_18:
+    DisplayName: Animation 18
+    OutlineParticles: true
+    FloorParticles: true

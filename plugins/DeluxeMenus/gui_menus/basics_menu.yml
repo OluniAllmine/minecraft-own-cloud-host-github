@@ -1,0 +1,99 @@
+#  A DeluxeMenus advanced configuration guide
+#=========================================================
+menu_title: '&8➥            &d❖ Donate ❖'
+open_command:
+  - donate
+open_commands:
+  - '[sound] BLOCK_BEACON_ACTIVATE'
+size: 27
+# as always, only cool people can open this menu :)
+items:
+  'vip':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDM3ZTExZTFkZTMzNzIxZjU0OTc4YzdiZTUzYmYxMGQxYTQzMGY1YjQ0YjRlM2QwMTJhMzNiNjFjYThmMDI2NyJ9fX0=
+    slot: 10
+    priority: 1
+    update: true
+    hide_attributes: true
+    display_name: '&6[VIP] %player_name%'
+    lore:
+      - ''
+      - '&7⚡ Получаеться за &635 &7убийств (/kills).'
+      - ''
+      - '&6⚡ Доступен кит випа. &7(/skits).'
+      - '&6⚡ Цвет вашего ника смениваеться на желтый.'
+      - '&6⚡ Вы получаете роль на &cфоруме.'
+      - '&6⚡ Множитель опыта &7(1.5x)'
+      - '&6⚡ Чат с випами - &e/vip (Сообщение)'
+      - ''
+    left_click_commands:
+      - '[message] &7Получить можно достигнув указанный уровень. Выдаеться сразу.'
+      - '[close]'
+  'vip+':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjM4YzUzZTY2ZjI4Y2YyYzdmYjE1MjNjOWU1ZGUxYWUwY2Y0ZDdhMWZhZjU1M2U3NTI0OTRhOGQ2ZDJlMzIifX19
+    slot: 12
+    priority: 1
+    update: true
+    hide_attributes: true
+    display_name: '&6[VIP&c+&6] %player_name%'
+    lore:
+      - ''
+      - '&7⭐ Получаеться за &c70 &7убийств (/kills).'
+      - ''
+      - '&6⭐ Доступен кит VIP&c+&6. &7(/skits).'
+      - '&6⭐ Цвет вашего ника смениваеться на желтый.'
+      - '&6⭐ Вы можете зайти на фулловый сервер'
+      - '&6⭐ Вы получаете роль на &cфоруме.'
+      - '&6⭐ Множитель опыта &7(1.7x)'
+      - '&6⭐ Чат донатеров - &e/don (Сообщение)'
+      - '&6⭐ Чат с випами - &e/vip (Сообщение)'
+      - ''
+    left_click_commands:
+      - '[message] &7Получить можно достигнув указанный уровень. Выдаеться сразу.'
+      - '[close]'
+  'mvp':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGNkZjg2Y2M0NjlhYjQ5MTU1ZTY3NWJiMzA0NDRjYjI2N2RjNDNkZmIzNTRkMTVkMWMwYzY2NWJlNTg1MjcifX19
+    slot: 14
+    priority: 1
+    update: true
+    hide_attributes: true
+    display_name: '&b[MVP] %player_name%'
+    lore:
+      - ''
+      - '&7🔱 Получаеться за &b120 &7убийств (/kills).'
+      - ''
+      - '&b🔱 Доступен кит &bMVP. &7(/skits).'
+      - '&b🔱 Цвет вашего ника смениваеться на голубой.'
+      - '&b🔱 Вы можете зайти на фулловый сервер'
+      - '&b🔱 Вы получаете роль на &cфоруме.'
+      - '&b🔱 Множитель опыта &7(2x)'
+      - '&b🔱 Чат донатеров - &e/don (Сообщение)'
+      - '&b🔱 У вас есть приоритет на форуме и на дискорд сервере.'
+      - ''
+    left_click_commands:
+      - '[message] &7Получить можно достигнув указанный уровень. Выдаеться сразу.'
+      - '[close]'
+  'mvp+':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTY4NGYxMTQ4MGMwZmM5NzQ4MGVkMWI3MGMyMzEzOWJiNGZjZDYxNmNjOTY3ZTZjNzc5YmExZDJlZDU1In19fQ==
+    slot: 16
+    priority: 1
+    update: true
+    hide_attributes: true
+    display_name: '&b[MVP&c+&b] %player_name%'
+    lore:
+      - ''
+      - '&7❖ Получаеться за &a150 &7убийств (/kills).'
+      - ''
+      - '&b❖ Доступен кит &bMVP&c+&b. &7(/skits).'
+      - '&b❖ Цвет вашего ника смениваеться на голубой.'
+      - '&b❖ Вы можете зайти на фулловый сервер'
+      - '&b❖ Вы получаете роль на &cфоруме.'
+      - '&b❖ Чат донатеров - &e/don (Сообщение)'
+      - '&b❖ У вас есть приоритет на форуме и на дискорд сервере.'
+      - '&b❖ У вас есть больше шансов стать на хелпера'
+      - '&b❖ К вам есть больше доверия в жалобах на форуме'
+      - '&b❖ Вам открываеться канал, где будут сливаться обновы'
+      - '&b❖ Вы сможете заходить на сервер во время тех. работ'
+      - ''
+    left_click_commands:
+      - '[message] &7Получить можно достигнув указанный уровень. Выдаеться сразу.'
+      - '[close]'

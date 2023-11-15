@@ -1,208 +1,920 @@
-[15:09:34] [ServerMain/INFO]: Environment: Environment[accountsHost=https://api.mojang.com, sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[15:09:37] [ServerMain/INFO]: Loaded 7 recipes
-[15:09:38] [Server thread/INFO]: Starting minecraft server version 1.20.2
-[15:09:38] [Server thread/INFO]: Loading properties
-[15:09:38] [Server thread/INFO]: This server is running CraftBukkit version 3919-Spigot-dba3cdc-e42510b (MC: 1.20.2) (Implementing API version 1.20.2-R0.1-SNAPSHOT)
-[15:09:39] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[15:09:39] [Server thread/INFO]: Using 4 threads for Netty based IO
-[15:09:39] [Server thread/INFO]: Debug logging is disabled
-[15:09:39] [Server thread/INFO]: Default game type: SURVIVAL
-[15:09:39] [Server thread/INFO]: Generating keypair
-[15:09:39] [Server thread/INFO]: Starting Minecraft server on *:25565
-[15:09:39] [Server thread/INFO]: Using epoll channel type
-[15:09:40] [Server thread/INFO]: [ViaVersion] Loading ViaVersion v4.8.1
-[15:09:40] [Server thread/INFO]: [ViaVersion] ViaVersion 4.8.1 is now loaded. Registering protocol transformers and injecting...
-[15:09:40] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
-[15:09:41] [Server thread/INFO]: [ViaBackwards] Loading translations...
-[15:09:41] [Server thread/INFO]: [ViaBackwards] Registering protocols...
-[15:09:41] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
-[15:09:41] [Server thread/INFO]: [ViaBackwards] Loading ViaBackwards v4.8.1
-[15:09:41] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[15:09:41] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[15:09:41] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[15:09:41] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[15:09:41] [Server thread/INFO]: Preparing level "world"
-[15:09:41] [Server thread/INFO]: -------- World Settings For [world] --------
-[15:09:41] [Server thread/INFO]: Item Despawn Rate: 6000
-[15:09:41] [Server thread/INFO]: Item Merge Radius: 2.5
-[15:09:41] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[15:09:41] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[15:09:41] [Server thread/INFO]: View Distance: 10
-[15:09:41] [Server thread/INFO]: Simulation Distance: 10
-[15:09:41] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[15:09:41] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[15:09:41] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[15:09:41] [Server thread/INFO]: Cane Growth Modifier: 100%
-[15:09:41] [Server thread/INFO]: Melon Growth Modifier: 100%
-[15:09:41] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[15:09:41] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[15:09:41] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[15:09:41] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[15:09:41] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[15:09:41] [Server thread/INFO]: Potato Growth Modifier: 100%
-[15:09:41] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[15:09:41] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[15:09:41] [Server thread/INFO]: Vine Growth Modifier: 100%
-[15:09:41] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[15:09:41] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[15:09:41] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[15:09:41] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[15:09:41] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
-[15:09:41] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
-[15:09:41] [Server thread/INFO]: CaveVines Growth Modifier: 100%
-[15:09:41] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
-[15:09:41] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
-[15:09:41] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
-[15:09:41] [Server thread/INFO]: Experience Merge Radius: 3.0
-[15:09:41] [Server thread/INFO]: Mob Spawn Range: 6
-[15:09:41] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[15:09:41] [Server thread/INFO]: Max TNT Explosions: 100
-[15:09:41] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[15:09:42] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[15:09:42] [Server thread/INFO]: Item Despawn Rate: 6000
-[15:09:42] [Server thread/INFO]: Item Merge Radius: 2.5
-[15:09:42] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[15:09:42] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[15:09:42] [Server thread/INFO]: View Distance: 10
-[15:09:42] [Server thread/INFO]: Simulation Distance: 10
-[15:09:42] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[15:09:42] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[15:09:42] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[15:09:42] [Server thread/INFO]: Cane Growth Modifier: 100%
-[15:09:42] [Server thread/INFO]: Melon Growth Modifier: 100%
-[15:09:42] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[15:09:42] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[15:09:42] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[15:09:42] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[15:09:42] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[15:09:42] [Server thread/INFO]: Potato Growth Modifier: 100%
-[15:09:42] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[15:09:42] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[15:09:42] [Server thread/INFO]: Vine Growth Modifier: 100%
-[15:09:42] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[15:09:42] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[15:09:42] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[15:09:42] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[15:09:42] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
-[15:09:42] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
-[15:09:42] [Server thread/INFO]: CaveVines Growth Modifier: 100%
-[15:09:42] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
-[15:09:42] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
-[15:09:42] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
-[15:09:42] [Server thread/INFO]: Experience Merge Radius: 3.0
-[15:09:42] [Server thread/INFO]: Mob Spawn Range: 6
-[15:09:42] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[15:09:42] [Server thread/INFO]: Max TNT Explosions: 100
-[15:09:42] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[15:09:47] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[15:09:47] [Server thread/INFO]: Item Despawn Rate: 6000
-[15:09:47] [Server thread/INFO]: Item Merge Radius: 2.5
-[15:09:47] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[15:09:47] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[15:09:47] [Server thread/INFO]: View Distance: 10
-[15:09:47] [Server thread/INFO]: Simulation Distance: 10
-[15:09:47] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[15:09:47] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[15:09:47] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[15:09:47] [Server thread/INFO]: Cane Growth Modifier: 100%
-[15:09:47] [Server thread/INFO]: Melon Growth Modifier: 100%
-[15:09:47] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[15:09:47] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[15:09:47] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[15:09:47] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[15:09:47] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[15:09:47] [Server thread/INFO]: Potato Growth Modifier: 100%
-[15:09:47] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[15:09:47] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[15:09:47] [Server thread/INFO]: Vine Growth Modifier: 100%
-[15:09:47] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[15:09:47] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[15:09:47] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[15:09:47] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[15:09:47] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
-[15:09:47] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
-[15:09:47] [Server thread/INFO]: CaveVines Growth Modifier: 100%
-[15:09:47] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
-[15:09:47] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
-[15:09:47] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
-[15:09:47] [Server thread/INFO]: Experience Merge Radius: 3.0
-[15:09:47] [Server thread/INFO]: Mob Spawn Range: 6
-[15:09:47] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[15:09:47] [Server thread/INFO]: Max TNT Explosions: 100
-[15:09:47] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[15:09:47] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[15:09:54] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:09:54] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:09:54] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:09:54] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:09:54] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:09:54] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:09:54] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:09:54] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:09:54] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:09:54] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:09:54] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:09:54] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:09:54] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:09:54] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:09:54] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:09:55] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:09:55] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:09:56] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:09:56] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:09:57] [Server thread/INFO]: Time elapsed: 9539 ms
-[15:09:57] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[15:10:00] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:10:00] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:10:00] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:10:00] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:10:00] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:10:00] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:10:00] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:10:00] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:10:01] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:10:01] [Server thread/INFO]: Time elapsed: 4302 ms
-[15:10:01] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[15:10:04] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:10:04] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:10:04] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:10:04] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:10:04] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:10:04] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:10:04] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:10:05] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:10:05] [Worker-Main-1/INFO]: Preparing spawn area: 39%
-[15:10:05] [Server thread/INFO]: Time elapsed: 4088 ms
-[15:10:05] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v4.8.1
-[15:10:05] [Server thread/WARN]: [ViaVersion] Couldn't find reflection methods/fields to access Channel from player.
-Login race condition fixer will be disabled.
- Some plugins that use ViaAPI on join event may work incorrectly.
-java.lang.NoSuchFieldException: NetworkManager
-	at com.viaversion.viaversion.bukkit.listeners.JoinListener.findField(JoinListener.java:80) ~[?:?]
-	at com.viaversion.viaversion.bukkit.listeners.JoinListener.<clinit>(JoinListener.java:50) ~[?:?]
-	at com.viaversion.viaversion.ViaVersionPlugin.onEnable(ViaVersionPlugin.java:109) ~[?:?]
-	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:266) ~[spigot-api-1.20.2-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:342) ~[spigot-api-1.20.2-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:480) ~[spigot-api-1.20.2-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.craftbukkit.v1_20_R2.CraftServer.enablePlugin(CraftServer.java:548) ~[spigot-1.20.2-R0.1-SNAPSHOT.jar:3919-Spigot-dba3cdc-e42510b]
-	at org.bukkit.craftbukkit.v1_20_R2.CraftServer.enablePlugins(CraftServer.java:462) ~[spigot-1.20.2-R0.1-SNAPSHOT.jar:3919-Spigot-dba3cdc-e42510b]
-	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:577) ~[spigot-1.20.2-R0.1-SNAPSHOT.jar:3919-Spigot-dba3cdc-e42510b]
-	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:400) ~[spigot-1.20.2-R0.1-SNAPSHOT.jar:3919-Spigot-dba3cdc-e42510b]
-	at net.minecraft.server.dedicated.DedicatedServer.e(DedicatedServer.java:250) ~[spigot-1.20.2-R0.1-SNAPSHOT.jar:3919-Spigot-dba3cdc-e42510b]
-	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:954) ~[spigot-1.20.2-R0.1-SNAPSHOT.jar:3919-Spigot-dba3cdc-e42510b]
-	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:298) ~[spigot-1.20.2-R0.1-SNAPSHOT.jar:3919-Spigot-dba3cdc-e42510b]
+[15:20:34] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[15:20:34] [main/INFO]: Reloading ResourceManager: Default, bukkit
+[15:20:35] [Worker-Main-1/INFO]: Loaded 7 recipes
+[15:20:36] [Server thread/INFO]: Starting minecraft server version 1.17.1
+[15:20:36] [Server thread/INFO]: Loading properties
+[15:20:36] [Server thread/INFO]: This server is running Paper version git-Paper-411 (MC: 1.17.1) (Implementing API version 1.17.1-R0.1-SNAPSHOT) (Git: 6625db3 on ver/1.17.1)
+[15:20:36] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[15:20:36] [Server thread/INFO]: Using 4 threads for Netty based IO
+[15:20:36] [Server thread/INFO]: Default game type: SURVIVAL
+[15:20:36] [Server thread/INFO]: Generating keypair
+[15:20:36] [Server thread/INFO]: Starting Minecraft server on *:25565
+[15:20:36] [Server thread/INFO]: Using epoll channel type
+[15:20:37] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[15:20:37] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[15:20:37] [Server thread/ERROR]: Could not load 'plugins/via.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidDescriptionException: Invalid plugin.yml
+	at org.bukkit.plugin.java.JavaPluginLoader.getPluginDescription(JavaPluginLoader.java:178) ~[patched_1.17.1.jar:git-Paper-411]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:158) ~[patched_1.17.1.jar:git-Paper-411]
+	at org.bukkit.craftbukkit.v1_17_R1.CraftServer.loadPlugins(CraftServer.java:419) ~[patched_1.17.1.jar:git-Paper-411]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:287) ~[patched_1.17.1.jar:git-Paper-411]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1220) ~[patched_1.17.1.jar:git-Paper-411]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:319) ~[patched_1.17.1.jar:git-Paper-411]
 	at java.lang.Thread.run(Thread.java:833) ~[?:?]
-[15:10:05] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.20.2 (764)
-[15:10:05] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v4.8.1
-[15:10:05] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[15:10:05] [Server thread/INFO]: Done (24.123s)! For help, type "help"
-[15:10:05] [Craft Scheduler Thread - 1/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
-[15:12:42] [User Authenticator #1/INFO]: UUID of player subhamoyGhosh is e08bc1be-f2c5-38bd-949f-fb8b9dd1263a
-[15:12:43] [Server thread/INFO]: subhamoyGhosh joined the game
-[15:12:43] [Server thread/INFO]: subhamoyGhosh[/[0:0:0:0:0:0:0:1%0]:51252] logged in with entity id 141 at ([world]17.5, 83.0, 18.5)
-[15:13:10] [Server thread/INFO]: Made subhamoyGhosh a server operator
-[15:13:20] [Server thread/INFO]: subhamoyGhosh issued server command: /gamemode creative
-[15:13:20] [Server thread/INFO]: [subhamoyGhosh: Set own game mode to Creative Mode]
-[15:14:12] [Server thread/WARN]: subhamoyGhosh moved too quickly! -12.018311805504027,-5.056851103310194,-6.257776375549014
-[15:14:58] [Server thread/INFO]: subhamoyGhosh lost connection: Disconnected
-[15:14:58] [Server thread/INFO]: subhamoyGhosh left the game
+Caused by: java.io.FileNotFoundException: Jar does not contain plugin.yml
+	... 7 more
+[15:20:37] [Server thread/ERROR]: [STDERR] [org.bukkit.craftbukkit.v1_17_R1.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[15:20:41] [Server thread/WARN]: Legacy plugin AkyloffCheck v2.0 does not specify an api-version.
+[15:20:41] [Server thread/INFO]: (Matrix) | Injecting server connection handler...
+[15:20:41] [Server thread/INFO]: (Matrix) | Java version: 17 (17)
+[15:20:41] [Server thread/INFO]: (Matrix) | Injected unsafe hacking
+[15:20:42] [Server thread/INFO]: (Matrix) | Injecting into net.minecraft.server.network.PlayerConnection
+[15:20:42] [Server thread/INFO]: (Matrix) | Found NMS class loader: jdk.internal.loader.ClassLoaders$AppClassLoader@46fbb2c1
+[15:20:42] [Server thread/INFO]: (Matrix) | <MV> Modified the movement delta value check
+[15:20:42] [Server thread/INFO]: (Matrix) | <MV> Modified the rotation delta value check
+[15:20:42] [Server thread/INFO]: (Matrix) | Injected server connection handler
+[15:20:42] [Server thread/INFO]: [Matrix] Log4j2 seems safe, skipping Log4j2 fixes
+[15:20:42] [Server thread/INFO]: [PlaceholderAPI] Loading PlaceholderAPI v2.11.5
+[15:20:42] [Server thread/INFO]: [CommandAllMine] Loading CommandAllMine v1.0-SNAPSHOT
+[15:20:42] [Server thread/INFO]: [AutoMessage] Loading AutoMessage v1.0
+[15:20:42] [Server thread/INFO]: [KillsPlugin] Loading KillsPlugin v1.0-SNAPSHOT
+[15:20:42] [Server thread/INFO]: [DonChatPlugin] Loading DonChatPlugin v1.0-SNAPSHOT
+[15:20:42] [Server thread/INFO]: [AkyloffCheck] Loading AkyloffCheck v2.0
+[15:20:42] [Server thread/INFO]: [CheaterPlugin] Loading CheaterPlugin v1.0-SNAPSHOT
+[15:20:42] [Server thread/INFO]: [KitPluginsCore] Loading KitPluginsCore v1.0-SNAPSHOT
+[15:20:42] [Server thread/INFO]: [PL-Hide] Loading PL-Hide v1.5.21
+[15:20:42] [Server thread/INFO]: [PriorityPlugin] Loading PriorityPlugin v1.0-SNAPSHOT
+[15:20:42] [Server thread/INFO]: [AdvancedSetSpawn] Loading AdvancedSetSpawn v2.5
+[15:20:42] [Server thread/INFO]: [DeathMessagesPlugin] Loading DeathMessagesPlugin v1.0-SNAPSHOT
+[15:20:42] [Server thread/INFO]: [ViaVersion] Loading ViaVersion v4.8.1
+[15:20:42] [Server thread/INFO]: [ViaVersion] ViaVersion 4.8.1 is now loaded. Registering protocol transformers and injecting...
+[15:20:42] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[15:20:42] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[15:20:42] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.4.108
+[15:20:43] [Server thread/INFO]: [ProtocolLib] Loading ProtocolLib v5.1.0
+[15:20:44] [Server thread/INFO]: [TAB] Loading TAB v4.0.9
+[15:20:44] [Server thread/INFO]: [Vault] Loading Vault v1.7.3-b131
+[15:20:44] [Server thread/INFO]: [StaffPlus] Loading StaffPlus v3.3.13.0
+[15:20:44] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: staffplus [3.3.13.0]
+[15:20:44] [Server thread/INFO]: Hooked into PlaceholderAPI 2.11.5
+[15:20:44] [Server thread/INFO]: [Chatty] Loading Chatty v2.19.14
+[15:20:44] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.5+57d5ac9
+[15:20:44] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@6e9e4f10]
+[15:20:44] [Server thread/INFO]: [Essentials] Loading Essentials v2.21.0-dev+21-c68b277
+[15:20:44] [Server thread/INFO]: [AuthMe] Loading AuthMe v5.6.0-beta2-b2453
+[15:20:44] [Server thread/INFO]: [Matrix] Loading Matrix v6.9.5
+[15:20:44] [Server thread/INFO]: [HolographicDisplays] Loading HolographicDisplays v2.4.8
+[15:20:44] [Server thread/INFO]: [LiteBans] Loading LiteBans v2.6.9
+[15:20:44] [Server thread/INFO]: [WorldGuard] Loading WorldGuard v7.0.5+3827266
+[15:20:44] [Server thread/INFO]: [ElytraMix] Loading ElytraMix v1.2.2
+[15:20:44] [Server thread/INFO]: [Citizens] Loading Citizens v2.0.28-SNAPSHOT (build 2404)
+[15:20:44] [Server thread/INFO]: [DeluxeMenus] Loading DeluxeMenus v1.13.5-Release
+[15:20:44] [Server thread/INFO]: [DeluxeMenus] NMS hook has been setup successfully!
+[15:20:44] [Server thread/INFO]: [MineResetLite] Loading MineResetLite v4.17.0
+[15:20:44] [Server thread/INFO]: [CoreProtect] Loading CoreProtect v22.2
+[15:20:44] [Server thread/INFO]: [dtlTradersPlus] Loading dtlTradersPlus v6.4.21
+[15:20:44] [Server thread/INFO]: [AntiRelog] Loading AntiRelog v3.0.10
+[15:20:44] [Server thread/INFO]: [PlugManX] Loading PlugManX v2.3.5
+[15:20:44] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[15:20:44] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.108
+[15:20:45] [Server thread/INFO]:         __    
+[15:20:45] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.108
+[15:20:45] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[15:20:45] [Server thread/INFO]: 
+[15:20:45] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[15:20:45] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[15:20:46] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[15:20:46] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[15:20:46] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 2109ms)
+[15:20:46] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.1.0
+[15:20:46] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[15:20:46] [Server thread/WARN]: [Vault] Loaded class com.earth2me.essentials.api.Economy from Essentials v2.21.0-dev+21-c68b277 which is not a depend, softdepend or loadbefore of this plugin.
+[15:20:46] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[15:20:46] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[15:20:46] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[15:20:46] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[15:20:46] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.5+57d5ac9
+[15:20:47] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[15:20:47] [Server thread/WARN]: 
+**********************************************
+** This WorldEdit version does not fully support your version of Bukkit.
+**
+** When working with blocks or undoing, chests will be empty, signs
+** will be blank, and so on. There will be no support for entity
+** and block property-related functions.
+**
+** Please see https://worldedit.enginehub.org/en/latest/faq/#bukkit-adapters
+**********************************************
+
+[15:20:47] [Server thread/INFO]: [PlugManX] Enabling PlugManX v2.3.5
+[15:20:48] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[15:20:48] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[15:20:48] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[15:20:48] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[15:20:48] [Server thread/INFO]: Preparing level "world"
+[15:20:48] [Server thread/INFO]: -------- World Settings For [world] --------
+[15:20:48] [Server thread/INFO]: Experience Merge Radius: 3.0
+[15:20:48] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[15:20:48] [Server thread/INFO]: Cane Growth Modifier: 100%
+[15:20:48] [Server thread/INFO]: Melon Growth Modifier: 100%
+[15:20:48] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[15:20:48] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[15:20:48] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[15:20:48] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[15:20:48] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[15:20:48] [Server thread/INFO]: Potato Growth Modifier: 100%
+[15:20:48] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[15:20:48] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[15:20:48] [Server thread/INFO]: Vine Growth Modifier: 100%
+[15:20:48] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[15:20:48] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[15:20:48] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[15:20:48] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[15:20:48] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[15:20:48] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[15:20:48] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[15:20:48] [Server thread/INFO]: Max TNT Explosions: 100
+[15:20:48] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[15:20:48] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[15:20:48] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[15:20:48] [Server thread/INFO]: Item Merge Radius: 2.5
+[15:20:48] [Server thread/INFO]: Item Despawn Rate: 6000
+[15:20:48] [Server thread/INFO]: View Distance: 10
+[15:20:48] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[15:20:48] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[15:20:48] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[15:20:48] [Server thread/INFO]: Mob Spawn Range: 6
+[15:20:48] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[15:20:48] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[15:20:48] [Server thread/INFO]: Experience Merge Radius: 3.0
+[15:20:48] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[15:20:48] [Server thread/INFO]: Cane Growth Modifier: 100%
+[15:20:48] [Server thread/INFO]: Melon Growth Modifier: 100%
+[15:20:48] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[15:20:48] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[15:20:48] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[15:20:48] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[15:20:48] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[15:20:48] [Server thread/INFO]: Potato Growth Modifier: 100%
+[15:20:48] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[15:20:48] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[15:20:48] [Server thread/INFO]: Vine Growth Modifier: 100%
+[15:20:48] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[15:20:48] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[15:20:48] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[15:20:48] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[15:20:48] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[15:20:48] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[15:20:48] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[15:20:48] [Server thread/INFO]: Max TNT Explosions: 100
+[15:20:48] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[15:20:48] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[15:20:48] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[15:20:48] [Server thread/INFO]: Item Merge Radius: 2.5
+[15:20:48] [Server thread/INFO]: Item Despawn Rate: 6000
+[15:20:48] [Server thread/INFO]: View Distance: 10
+[15:20:48] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[15:20:48] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[15:20:48] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[15:20:48] [Server thread/INFO]: Mob Spawn Range: 6
+[15:20:48] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[15:20:48] [Server thread/INFO]: Experience Merge Radius: 3.0
+[15:20:48] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[15:20:48] [Server thread/INFO]: Cane Growth Modifier: 100%
+[15:20:48] [Server thread/INFO]: Melon Growth Modifier: 100%
+[15:20:48] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[15:20:48] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[15:20:48] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[15:20:48] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[15:20:48] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[15:20:48] [Server thread/INFO]: Potato Growth Modifier: 100%
+[15:20:48] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[15:20:48] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[15:20:48] [Server thread/INFO]: Vine Growth Modifier: 100%
+[15:20:48] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[15:20:48] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[15:20:48] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[15:20:48] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[15:20:48] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[15:20:48] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[15:20:48] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[15:20:48] [Server thread/INFO]: Max TNT Explosions: 100
+[15:20:48] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[15:20:48] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[15:20:48] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[15:20:48] [Server thread/INFO]: Item Merge Radius: 2.5
+[15:20:48] [Server thread/INFO]: Item Despawn Rate: 6000
+[15:20:48] [Server thread/INFO]: View Distance: 10
+[15:20:48] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[15:20:48] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[15:20:48] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[15:20:48] [Server thread/INFO]: Mob Spawn Range: 6
+[15:20:48] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[15:20:49] [Server thread/INFO]: Time elapsed: 350 ms
+[15:20:49] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[15:20:49] [Server thread/INFO]: Time elapsed: 282 ms
+[15:20:49] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[15:20:49] [Server thread/INFO]: Time elapsed: 410 ms
+[15:20:49] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.5
+[15:20:50] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[15:20:50] [Server thread/INFO]: [CommandAllMine] Enabling CommandAllMine v1.0-SNAPSHOT
+[15:20:50] [Server thread/INFO]: [CommandAllMine] CommandAllMine включен!
+[15:20:50] [Server thread/INFO]: [AutoMessage] Enabling AutoMessage v1.0
+[15:20:50] [Server thread/INFO]: [KillsPlugin] Enabling KillsPlugin v1.0-SNAPSHOT
+[15:20:50] [Server thread/INFO]: [KillsPlugin] KillsPlugin has been enabled!
+[15:20:50] [Server thread/INFO]: [DonChatPlugin] Enabling DonChatPlugin v1.0-SNAPSHOT
+[15:20:50] [Server thread/INFO]: [DonChatPlugin] DonChatPlugin включен!
+[15:20:50] [Server thread/INFO]: [AkyloffCheck] Enabling AkyloffCheck v2.0*
+[15:20:50] [Server thread/INFO]: [CheaterPlugin] Enabling CheaterPlugin v1.0-SNAPSHOT
+[15:20:50] [Server thread/INFO]: [CheaterPlugin] Плагин Cheater был включен!
+[15:20:50] [Server thread/INFO]: [KitPluginsCore] Enabling KitPluginsCore v1.0-SNAPSHOT
+[15:20:50] [Server thread/INFO]: [PL-Hide] Enabling PL-Hide v1.5.21
+[15:20:50] [Server thread/INFO]: [PriorityPlugin] Enabling PriorityPlugin v1.0-SNAPSHOT
+[15:20:50] [Server thread/INFO]: [AdvancedSetSpawn] Enabling AdvancedSetSpawn v2.5
+[15:20:50] [Server thread/INFO]: [DeathMessagesPlugin] Enabling DeathMessagesPlugin v1.0-SNAPSHOT
+[15:20:50] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v4.8.1
+[15:20:50] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.17.1 (756)
+[15:20:50] [Server thread/INFO]: [TAB] Enabling TAB v4.0.9
+[15:20:50] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: tab [4.0.9]
+[15:20:50] [Server thread/INFO]: [TAB] Enabled in 156ms
+[15:20:50] [Server thread/INFO]: [StaffPlus] Enabling StaffPlus v3.3.13.0
+[15:20:50] [Server thread/ERROR]: Cannot load plugins/StaffPlus/passwords.yml
+org.bukkit.configuration.InvalidConfigurationException: unacceptable code point ' ' (0x0) special characters are not allowed
+in "'string'", position 0
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:59) ~[patched_1.17.1.jar:git-Paper-411]
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:160) ~[patched_1.17.1.jar:git-Paper-411]
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:128) ~[patched_1.17.1.jar:git-Paper-411]
+	at org.bukkit.configuration.file.YamlConfiguration.loadConfiguration(YamlConfiguration.java:188) ~[patched_1.17.1.jar:git-Paper-411]
+	at net.shortninja.staffplus.server.data.file.DataFile.load(DataFile.java:51) ~[Staff+.jar:?]
+	at net.shortninja.staffplus.server.data.file.DataFile.<init>(DataFile.java:31) ~[Staff+.jar:?]
+	at net.shortninja.staffplus.player.attribute.SecurityHandler.<clinit>(SecurityHandler.java:26) ~[Staff+.jar:?]
+	at net.shortninja.staffplus.StaffPlus.start(StaffPlus.java:190) ~[Staff+.jar:?]
+	at net.shortninja.staffplus.StaffPlus.onEnable(StaffPlus.java:129) ~[Staff+.jar:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264) ~[patched_1.17.1.jar:git-Paper-411]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:370) ~[patched_1.17.1.jar:git-Paper-411]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:500) ~[patched_1.17.1.jar:git-Paper-411]
+	at org.bukkit.craftbukkit.v1_17_R1.CraftServer.enablePlugin(CraftServer.java:561) ~[patched_1.17.1.jar:git-Paper-411]
+	at org.bukkit.craftbukkit.v1_17_R1.CraftServer.enablePlugins(CraftServer.java:475) ~[patched_1.17.1.jar:git-Paper-411]
+	at net.minecraft.server.MinecraftServer.loadWorld(MinecraftServer.java:733) ~[patched_1.17.1.jar:git-Paper-411]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:317) ~[patched_1.17.1.jar:git-Paper-411]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1220) ~[patched_1.17.1.jar:git-Paper-411]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:319) ~[patched_1.17.1.jar:git-Paper-411]
+	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+Caused by: org.yaml.snakeyaml.reader.ReaderException: special characters are not allowed
+	at org.yaml.snakeyaml.reader.StreamReader.update(StreamReader.java:211) ~[patched_1.17.1.jar:git-Paper-411]
+	at org.yaml.snakeyaml.reader.StreamReader.ensureEnoughData(StreamReader.java:176) ~[patched_1.17.1.jar:git-Paper-411]
+	at org.yaml.snakeyaml.reader.StreamReader.ensureEnoughData(StreamReader.java:171) ~[patched_1.17.1.jar:git-Paper-411]
+	at org.yaml.snakeyaml.reader.StreamReader.peek(StreamReader.java:126) ~[patched_1.17.1.jar:git-Paper-411]
+	at org.yaml.snakeyaml.scanner.ScannerImpl.scanToNextToken(ScannerImpl.java:1198) ~[patched_1.17.1.jar:git-Paper-411]
+	at org.yaml.snakeyaml.scanner.ScannerImpl.fetchMoreTokens(ScannerImpl.java:308) ~[patched_1.17.1.jar:git-Paper-411]
+	at org.yaml.snakeyaml.scanner.ScannerImpl.checkToken(ScannerImpl.java:248) ~[patched_1.17.1.jar:git-Paper-411]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseImplicitDocumentStart.produce(ParserImpl.java:213) ~[patched_1.17.1.jar:git-Paper-411]
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:165) ~[patched_1.17.1.jar:git-Paper-411]
+	at org.yaml.snakeyaml.parser.ParserImpl.checkEvent(ParserImpl.java:155) ~[patched_1.17.1.jar:git-Paper-411]
+	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:140) ~[patched_1.17.1.jar:git-Paper-411]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.getSingleData(BaseConstructor.java:151) ~[patched_1.17.1.jar:git-Paper-411]
+	at org.yaml.snakeyaml.Yaml.loadFromReader(Yaml.java:490) ~[patched_1.17.1.jar:git-Paper-411]
+	at org.yaml.snakeyaml.Yaml.load(Yaml.java:416) ~[patched_1.17.1.jar:git-Paper-411]
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:57) ~[patched_1.17.1.jar:git-Paper-411]
+	... 18 more
+[15:20:50] [Server thread/INFO]: [Staff+] Staff+ has been enabled! Initialization took 77ms.
+[15:20:50] [Server thread/INFO]: [Staff+] Plugin created by Shortninja continued by Qball.
+[15:20:50] [Server thread/INFO]: [Chatty] Enabling Chatty v2.19.14
+[15:20:50] [Server thread/INFO]: [Chatty] Vault has successful hooked.
+[15:20:50] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: chatty [2.19.14]
+[15:20:50] [Server thread/INFO]: [Chatty] PlaceholderAPI has successful hooked.
+[15:20:51] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0-dev+21-c68b277
+[15:20:51] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[15:20:51] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[15:20:51] [Server thread/INFO]: [Essentials] Loaded 39094 items from items.json.
+[15:20:51] [Server thread/INFO]: [Essentials] Using locale en
+[15:20:51] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[15:20:51] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[15:20:51] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[15:20:51] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
+[15:20:51] [Server thread/INFO]: [AuthMe] Enabling AuthMe v5.6.0-beta2-b2453
+[15:20:51] [Server thread/INFO]: [AuthMe] Created column 'regdate' and set the current timestamp, 1700061651873, to all 0 rows
+[15:20:52] [Server thread/INFO]: [AuthMe] SQLite Setup finished
+[15:20:52] [Server thread/INFO]: [AuthMe] Hooked into LuckPerms!
+[15:20:52] [Server thread/INFO]: [AuthMe] Hooked successfully into Essentials
+[15:20:52] [Server thread/INFO]: [AuthMe] Essentials spawn file not found: '/workspaces/minecraft-own-cloud-host-github/plugins/Essentials/spawn.yml'
+[15:20:52] [Server thread/INFO]: [AuthMe] AuthMe 5.6.0-beta2 build n.2453 successfully enabled!
+[15:20:52] [Server thread/INFO]: [Matrix] Enabling Matrix v6.9.5
+[15:20:52] [Server thread/ERROR]: Error occurred while enabling Matrix v6.9.5 (Is it up to date?)
+java.lang.IllegalAccessException: class me.rerere.matrix.Matrix$$InjectedInvoker/0x00007f5bc956a000 cannot access a member of class org.bukkit.plugin.java.JavaPlugin with modifiers "protected final"
+	at jdk.internal.reflect.Reflection.newIllegalAccessException(Reflection.java:392) ~[?:?]
+	at java.lang.reflect.AccessibleObject.checkAccess(AccessibleObject.java:674) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:560) ~[?:?]
+	at me.rerere.matrix.Matrix.onEnable(Unknown Source) ~[Matrix_6.9.5.jar:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264) ~[patched_1.17.1.jar:git-Paper-411]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:370) ~[patched_1.17.1.jar:git-Paper-411]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:500) ~[patched_1.17.1.jar:git-Paper-411]
+	at org.bukkit.craftbukkit.v1_17_R1.CraftServer.enablePlugin(CraftServer.java:561) ~[patched_1.17.1.jar:git-Paper-411]
+	at org.bukkit.craftbukkit.v1_17_R1.CraftServer.enablePlugins(CraftServer.java:475) ~[patched_1.17.1.jar:git-Paper-411]
+	at net.minecraft.server.MinecraftServer.loadWorld(MinecraftServer.java:733) ~[patched_1.17.1.jar:git-Paper-411]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:317) ~[patched_1.17.1.jar:git-Paper-411]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1220) ~[patched_1.17.1.jar:git-Paper-411]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:319) ~[patched_1.17.1.jar:git-Paper-411]
+	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+[15:20:52] [Server thread/INFO]: [Matrix] Disabling Matrix v6.9.5
+[15:20:52] [Server thread/INFO]: [Matrix] Error when disabling Matrix: me.rerere.matrix.thirdparty.kotlin.UninitializedPropertyAccessException
+[15:20:52] [Server thread/INFO]: [Matrix] Disabled Matrix AntiCheat.
+[15:20:52] [Server thread/INFO]: [HolographicDisplays] Enabling HolographicDisplays v2.4.8
+[15:20:52] [Server thread/INFO]: [HolographicDisplays] Enabled player relative placeholders with ProtocolLib.
+[15:20:52] [Server thread/INFO]: [LiteBans] Enabling LiteBans v2.6.9
+[15:20:52] [Server thread/INFO]: [LiteBans] Downloaded from https://directleaks.net
+[15:20:52] [Server thread/INFO]: [LiteBans] Using default database drivers (version:4).
+[15:20:52] [Server thread/INFO]: [LiteBans] Loading SQL driver: h2 1.4.197 (org.h2.Driver)
+[15:20:52] [Server thread/INFO]: [LiteBans] Connecting to database...
+[15:20:52] [Server thread/INFO]: [LiteBans] Connected to [jdbc:h2:///workspaces/minecraft-own-cloud-host-github/plugins/LiteBans/litebans] (147.4 ms).
+[15:20:52] [Server thread/INFO]: [LiteBans] Database connection fully initialized (151 ms).
+[15:20:52] [Server thread/INFO]: [LiteBans] v2.6.9 enabled. Startup took 249 ms.
+[15:20:52] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.5+3827266
+[15:20:53] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[15:20:53] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[15:20:53] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
+[15:20:53] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[15:20:53] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[15:20:53] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
+[15:20:53] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
+[15:20:53] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
+[15:20:53] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
+[15:20:53] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
+[15:20:53] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
+[15:20:53] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
+[15:20:53] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
+[15:20:53] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
+[15:20:53] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
+[15:20:53] [Server thread/INFO]: [WorldGuard] Loading region data...
+[15:20:53] [Server thread/INFO]: [ElytraMix] Enabling ElytraMix v1.2.2
+[15:20:53] [Server thread/INFO]: [ElytraMix] Config files check complete.
+[15:20:53] [Server thread/INFO]: [Citizens] Enabling Citizens v2.0.28-SNAPSHOT (build 2404)
+[15:20:53] [Server thread/INFO]: [DeluxeMenus] Enabling DeluxeMenus v1.13.5-Release
+[15:20:53] [Server thread/INFO]: [DeluxeMenus] Successfully hooked into PlaceholderAPI!
+[15:20:53] [Server thread/INFO]: [DeluxeMenus] 3 GUI menus loaded!
+[15:20:53] [Server thread/INFO]: [DeluxeMenus] You are running the latest version of DeluxeMenus!
+[15:20:53] [Server thread/INFO]: [DeluxeMenus] Successfully hooked into Vault!
+[15:20:53] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: deluxemenus [1.13.5-Release]
+[15:20:53] [Server thread/INFO]: [MineResetLite] Enabling MineResetLite v4.17.0
+[15:20:53] [Server thread/INFO]: [MineResetLite] Registering BlockEventListener
+[15:20:53] [Server thread/INFO]: [MineResetLite] TokenEnchant was not found... skipping.
+[15:20:53] [Server thread/INFO]: [MineResetLite] Registering PlayerEventListener
+[15:20:53] [Server thread/INFO]: [MineResetLite] MineResetLite version 4.17.0 enabled!
+[15:20:53] [Server thread/INFO]: [CoreProtect] Enabling CoreProtect v22.2
+[15:20:53] [Server thread/INFO]: [CoreProtect] CoreProtect has been successfully enabled! 
+[15:20:53] [Server thread/INFO]: [CoreProtect] Using SQLite for data storage.
+[15:20:53] [Server thread/INFO]: --------------------
+[15:20:53] [Server thread/INFO]: [CoreProtect] Enjoy CoreProtect? Join our Discord!
+[15:20:53] [Server thread/INFO]: [CoreProtect] Discord: www.coreprotect.net/discord/
+[15:20:53] [Server thread/INFO]: --------------------
+[15:20:53] [Server thread/INFO]: [dtlTradersPlus] Enabling dtlTradersPlus v6.4.21
+[15:20:53] [Server thread/INFO]: dtlTradersPlus> Welcome to dtlTradersPlus v6.4.21!
+[15:20:53] [Server thread/INFO]: dtlTradersPlus> Trying to hook into any Vault supported plugin...
+[15:20:53] [Server thread/INFO]: dtlTradersPlus> Vault found! Trying to hook...
+[15:20:53] [Server thread/INFO]: dtlTradersPlus> Found economy plugin: EssentialsX Economy
+[15:20:53] [Server thread/INFO]: dtlTradersPlus> Loaded 0 guis from the guis config!
+[15:20:53] [Server thread/INFO]: dtlTradersPlus> Hooking into Citizens!
+[15:20:53] [Server thread/INFO]: dtlTradersPlus> Hooking into PlaceholderAPI
+[15:20:53] [Server thread/INFO]: dtlTradersPlus> dtlTraders is managed by Degitise. www.degitise.com
+[15:20:53] [Server thread/INFO]: [AntiRelog] Enabling AntiRelog v3.0.10
+[15:20:53] [Server thread/INFO]: [AntiRelog] Конфиг успешно загружен
+[15:20:53] [Server thread/INFO]: [AntiRelog] Detected version: 1.17.1
+[15:20:54] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[15:20:54] [Server thread/INFO]: Running delayed init tasks
+[15:20:54] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[15:20:54] [Server thread/INFO]: [CoreProtect] WorldEdit logging successfully initialized.
+[15:20:54] [Craft Scheduler Thread - 0 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
+[15:20:54] [Server thread/INFO]: [Citizens] Loaded 0 NPCs.
+[15:20:54] [Craft Scheduler Thread - 4 - Essentials/INFO]: [Essentials] Fetching version information...
+[15:20:54] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: statistic [2.0.1]
+[15:20:54] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: server [2.6.2]
+[15:20:54] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: player [2.0.7]
+[15:20:54] [Server thread/WARN]: [PlaceholderAPI] Loaded class net.luckperms.api.LuckPerms from LuckPerms v5.4.108 which is not a depend, softdepend or loadbefore of this plugin.
+[15:20:54] [Craft Scheduler Thread - 5 - AuthMe/INFO]: [AuthMe] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[15:20:54] [Craft Scheduler Thread - 5 - AuthMe/WARN]: [AuthMe] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[15:20:54] [Craft Scheduler Thread - 5 - AuthMe/INFO]: [AuthMe] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[15:20:54] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: luckperms [5.4-R2]
+[15:20:54] [Server thread/INFO]: 4 placeholder hook(s) registered!
+[15:20:54] [Server thread/INFO]: Done (17.843s)! For help, type "help"
+[15:20:54] [Craft Scheduler Thread - 5 - AuthMe/WARN]: [AuthMe] Could not download GeoLiteAPI database [FileNotFoundException]: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
+[15:20:54] [Server thread/INFO]: Timings Reset
+[15:20:54] [Craft Scheduler Thread - 7 - Vault/INFO]: [Vault] Checking for Updates ... 
+[15:20:54] [Craft Scheduler Thread - 7 - Vault/INFO]: [Vault] No new version available
+[15:20:54] [Server thread/INFO]: [HolographicDisplays] Found a new version available: v3.0.3
+[15:20:54] [Server thread/INFO]: [HolographicDisplays] Download it on Bukkit Dev:
+[15:20:54] [Server thread/INFO]: [HolographicDisplays] dev.bukkit.org/projects/holographic-displays
+[15:20:54] [Craft Scheduler Thread - 0 - StaffPlus/INFO]: [StaffPlus] You are using the latest version thanks
+[15:20:59] [Server thread/INFO]: This is default message 1, Please change this in config.yml
+[15:21:09] [Server thread/INFO]: This is default message 2, You can change this in config.yml
+[15:21:19] [Server thread/INFO]: This is default message 3, You can change this in config.yml
+[15:21:22] [User Authenticator #1/INFO]: UUID of player Oluni_Official is 51e0220c-1747-3bf9-9636-a26de851e815
+[15:21:22] [Server thread/INFO]: > [Админ] Oluni_Official ✔ joined the server.
+[15:21:22] [Server thread/INFO]: Oluni_Official[/[0:0:0:0:0:0:0:1%0]:37532] logged in with entity id 108 at ([world]-264.4486903590816, 165.0, -421.8887390287488)
+[15:21:29] [Server thread/INFO]: This is default message 4, You can change this in config.yml
+[15:21:31] [Server thread/INFO]: [AuthMe] Oluni_Official registered 0:0:0:0:0:0:0:1%0
+[15:21:31] [Craft Scheduler Thread - 5 - AuthMe/INFO]: [AuthMe] Oluni_Official logged in 0:0:0:0:0:0:0:1%0
+[15:21:39] [Server thread/INFO]: This is default message 5, You can change this in config.yml
+[15:21:49] [Server thread/INFO]: This is default message 6, You can change this in config.yml
+[15:21:55] [Server thread/INFO]: Oluni_Official issued server command: /authme reload
+[15:21:55] [Server thread/INFO]: [AuthMe] SQLite Setup finished
+[15:21:55] [Server thread/INFO]: [AuthMe] Essentials spawn file not found: '/workspaces/minecraft-own-cloud-host-github/plugins/Essentials/spawn.yml'
+[15:21:55] [Server thread/INFO]: [AuthMe] Unhooked from Permissions!
+[15:21:55] [Server thread/INFO]: [AuthMe] Hooked into LuckPerms!
+[15:21:56] [Server thread/INFO]: Oluni_Official issued server command: /lp
+[15:21:59] [Server thread/INFO]: This is default message 1, Please change this in config.yml
+[15:21:59] [Server thread/INFO]: Oluni_Official issued server command: /lp editor
+[15:22:09] [Server thread/INFO]: This is default message 2, You can change this in config.yml
+[15:22:19] [Server thread/INFO]: This is default message 3, You can change this in config.yml
+[15:22:29] [Server thread/INFO]: This is default message 4, You can change this in config.yml
+[15:22:39] [Server thread/INFO]: This is default message 5, You can change this in config.yml
+[15:22:49] [Server thread/INFO]: This is default message 6, You can change this in config.yml
+[15:22:59] [Server thread/INFO]: This is default message 1, Please change this in config.yml
+[15:23:09] [Server thread/INFO]: This is default message 2, You can change this in config.yml
+[15:23:14] [luckperms-worker-9/INFO]: [LP] LOG > (Oluni_Official) [G] (helper)
+[15:23:14] [luckperms-worker-9/INFO]: [LP] LOG > webeditor add litebans.checkmute true
+[15:23:14] [luckperms-worker-9/INFO]: [LP] LOG > (Oluni_Official) [G] (helper)
+[15:23:14] [luckperms-worker-9/INFO]: [LP] LOG > webeditor add litebans.tempban true
+[15:23:14] [luckperms-worker-9/INFO]: [LP] LOG > (Oluni_Official) [G] (helper)
+[15:23:14] [luckperms-worker-9/INFO]: [LP] LOG > webeditor add essentials.vanish true
+[15:23:14] [luckperms-worker-9/INFO]: [LP] LOG > (Oluni_Official) [G] (helper)
+[15:23:14] [luckperms-worker-9/INFO]: [LP] LOG > webeditor add essentials.fly true
+[15:23:14] [luckperms-worker-9/INFO]: [LP] LOG > (Oluni_Official) [G] (helper)
+[15:23:14] [luckperms-worker-9/INFO]: [LP] LOG > webeditor add cheater.apdeny true
+[15:23:14] [luckperms-worker-9/INFO]: [LP] LOG > (Oluni_Official) [G] (helper)
+[15:23:14] [luckperms-worker-9/INFO]: [LP] LOG > webeditor add litebans.tempmute true
+[15:23:14] [luckperms-worker-9/INFO]: [LP] LOG > (Oluni_Official) [G] (helper)
+[15:23:14] [luckperms-worker-9/INFO]: [LP] LOG > webeditor add litebans.kick true
+[15:23:14] [luckperms-worker-9/INFO]: [LP] LOG > (Oluni_Official) [G] (helper)
+[15:23:14] [luckperms-worker-9/INFO]: [LP] LOG > webeditor add litebans.checkban true
+[15:23:14] [luckperms-worker-9/INFO]: [LP] LOG > (Oluni_Official) [G] (cheater)
+[15:23:14] [luckperms-worker-9/INFO]: [LP] LOG > webeditor delete
+[15:23:19] [Server thread/INFO]: This is default message 3, You can change this in config.yml
+[15:23:29] [Server thread/INFO]: This is default message 4, You can change this in config.yml
+[15:23:30] [Server thread/INFO]: Oluni_Official issued server command: /aspawn
+[15:23:33] [Server thread/INFO]: Oluni_Official issued server command: /aspawn setspawn
+[15:23:38] [Server thread/INFO]: Oluni_Official issued server command: /aspawn firstspawn
+[15:23:39] [Server thread/INFO]: This is default message 5, You can change this in config.yml
+[15:23:40] [Server thread/INFO]: Oluni_Official issued server command: /aspawn setfirstspawn
+[15:23:49] [Server thread/INFO]: This is default message 6, You can change this in config.yml
+[15:23:59] [Server thread/INFO]: This is default message 1, Please change this in config.yml
+[15:24:09] [Server thread/INFO]: This is default message 2, You can change this in config.yml
+[15:24:19] [Server thread/INFO]: This is default message 3, You can change this in config.yml
+[15:24:29] [Server thread/INFO]: This is default message 4, You can change this in config.yml
+[15:24:39] [Server thread/INFO]: This is default message 5, You can change this in config.yml
+[15:24:49] [Server thread/INFO]: This is default message 6, You can change this in config.yml
+[15:24:59] [Server thread/INFO]: This is default message 1, Please change this in config.yml
+[15:25:09] [Server thread/INFO]: This is default message 2, You can change this in config.yml
+[15:25:19] [Server thread/INFO]: This is default message 3, You can change this in config.yml
+[15:25:29] [Server thread/INFO]: This is default message 4, You can change this in config.yml
+[15:25:39] [Server thread/INFO]: This is default message 5, You can change this in config.yml
+[15:25:49] [Server thread/INFO]: This is default message 6, You can change this in config.yml
+[15:25:59] [Server thread/INFO]: This is default message 1, Please change this in config.yml
+[15:26:09] [Server thread/INFO]: This is default message 2, You can change this in config.yml
+[15:26:19] [Server thread/INFO]: This is default message 3, You can change this in config.yml
+[15:26:29] [Server thread/INFO]: This is default message 4, You can change this in config.yml
+[15:26:39] [Server thread/INFO]: This is default message 5, You can change this in config.yml
+[15:26:49] [Server thread/INFO]: This is default message 6, You can change this in config.yml
+[15:26:59] [Server thread/INFO]: This is default message 1, Please change this in config.yml
+[15:27:09] [Server thread/INFO]: This is default message 2, You can change this in config.yml
+[15:27:19] [Server thread/INFO]: This is default message 3, You can change this in config.yml
+[15:27:29] [Server thread/INFO]: This is default message 4, You can change this in config.yml
+[15:27:39] [Server thread/INFO]: This is default message 5, You can change this in config.yml
+[15:27:49] [Server thread/INFO]: This is default message 6, You can change this in config.yml
+[15:27:59] [Server thread/INFO]: This is default message 1, Please change this in config.yml
+[15:28:09] [Server thread/INFO]: This is default message 2, You can change this in config.yml
+[15:28:19] [Server thread/INFO]: This is default message 3, You can change this in config.yml
+[15:28:29] [Server thread/INFO]: This is default message 4, You can change this in config.yml
+[15:28:39] [Server thread/INFO]: This is default message 5, You can change this in config.yml
+[15:28:49] [Server thread/INFO]: This is default message 6, You can change this in config.yml
+[15:28:59] [Server thread/INFO]: This is default message 1, Please change this in config.yml
+[15:29:09] [Server thread/INFO]: This is default message 2, You can change this in config.yml
+[15:29:19] [Server thread/INFO]: This is default message 3, You can change this in config.yml
+[15:29:29] [Server thread/INFO]: This is default message 4, You can change this in config.yml
+[15:29:39] [Server thread/INFO]: This is default message 5, You can change this in config.yml
+[15:29:49] [Server thread/INFO]: This is default message 6, You can change this in config.yml
+[15:29:59] [Server thread/INFO]: This is default message 1, Please change this in config.yml
+[15:30:09] [Server thread/INFO]: This is default message 2, You can change this in config.yml
+[15:30:19] [Server thread/INFO]: This is default message 3, You can change this in config.yml
+[15:30:29] [Server thread/INFO]: This is default message 4, You can change this in config.yml
+[15:30:37] [Server thread/INFO]: Oluni_Official issued server command: /check
+[15:30:39] [Server thread/INFO]: This is default message 5, You can change this in config.yml
+[15:30:49] [Server thread/INFO]: This is default message 6, You can change this in config.yml
+[15:30:59] [Server thread/INFO]: This is default message 1, Please change this in config.yml
+[15:31:09] [Server thread/INFO]: This is default message 2, You can change this in config.yml
+[15:31:19] [Server thread/INFO]: This is default message 3, You can change this in config.yml
+[15:31:29] [Server thread/INFO]: This is default message 4, You can change this in config.yml
+[15:31:39] [Server thread/INFO]: This is default message 5, You can change this in config.yml
+[15:31:49] [Server thread/INFO]: This is default message 6, You can change this in config.yml
+[15:31:59] [Server thread/INFO]: This is default message 1, Please change this in config.yml
+[15:32:09] [Server thread/INFO]: This is default message 2, You can change this in config.yml
+[15:32:19] [Server thread/INFO]: This is default message 3, You can change this in config.yml
+[15:32:29] [Server thread/INFO]: This is default message 4, You can change this in config.yml
+[15:32:39] [Server thread/INFO]: This is default message 5, You can change this in config.yml
+[15:32:49] [Server thread/INFO]: This is default message 6, You can change this in config.yml
+[15:32:59] [Server thread/INFO]: This is default message 1, Please change this in config.yml
+[15:33:09] [Server thread/INFO]: This is default message 2, You can change this in config.yml
+[15:33:14] [Server thread/INFO]: Oluni_Official issued server command: /addprior
+[15:33:19] [Server thread/INFO]: This is default message 3, You can change this in config.yml
+[15:33:29] [Server thread/INFO]: This is default message 4, You can change this in config.yml
+[15:33:39] [Server thread/INFO]: This is default message 5, You can change this in config.yml
+[15:33:49] [Server thread/INFO]: This is default message 6, You can change this in config.yml
+[15:33:59] [Server thread/INFO]: This is default message 1, Please change this in config.yml
+[15:34:09] [Server thread/INFO]: This is default message 2, You can change this in config.yml
+[15:34:19] [Server thread/INFO]: This is default message 3, You can change this in config.yml
+[15:34:29] [Server thread/INFO]: This is default message 4, You can change this in config.yml
+[15:34:39] [Server thread/INFO]: This is default message 5, You can change this in config.yml
+[15:34:49] [Server thread/INFO]: This is default message 6, You can change this in config.yml
+[15:34:59] [Server thread/INFO]: This is default message 1, Please change this in config.yml
+[15:35:09] [Server thread/INFO]: This is default message 2, You can change this in config.yml
+[15:35:19] [Server thread/INFO]: This is default message 3, You can change this in config.yml
+[15:35:29] [Server thread/INFO]: This is default message 4, You can change this in config.yml
+[15:35:39] [Server thread/INFO]: This is default message 5, You can change this in config.yml
+[15:35:49] [Server thread/INFO]: This is default message 6, You can change this in config.yml
+[15:35:59] [Server thread/INFO]: This is default message 1, Please change this in config.yml
+[15:36:09] [Server thread/INFO]: This is default message 2, You can change this in config.yml
+[15:36:19] [Server thread/INFO]: This is default message 3, You can change this in config.yml
+[15:36:29] [Server thread/INFO]: This is default message 4, You can change this in config.yml
+[15:36:39] [Server thread/INFO]: This is default message 5, You can change this in config.yml
+[15:36:49] [Server thread/INFO]: This is default message 6, You can change this in config.yml
+[15:36:59] [Server thread/INFO]: This is default message 1, Please change this in config.yml
+[15:37:09] [Server thread/INFO]: This is default message 2, You can change this in config.yml
+[15:37:19] [Server thread/INFO]: This is default message 3, You can change this in config.yml
+[15:37:29] [Server thread/INFO]: This is default message 4, You can change this in config.yml
+[15:37:39] [Server thread/INFO]: This is default message 5, You can change this in config.yml
+[15:37:49] [Server thread/INFO]: This is default message 6, You can change this in config.yml
+[15:37:59] [Server thread/INFO]: This is default message 1, Please change this in config.yml
+[15:38:09] [Server thread/INFO]: This is default message 2, You can change this in config.yml
+[15:38:19] [Server thread/INFO]: This is default message 3, You can change this in config.yml
+[15:38:29] [Server thread/INFO]: This is default message 4, You can change this in config.yml
+[15:38:39] [Server thread/INFO]: This is default message 5, You can change this in config.yml
+[15:38:49] [Server thread/INFO]: This is default message 6, You can change this in config.yml
+[15:38:59] [Server thread/INFO]: This is default message 1, Please change this in config.yml
+[15:39:09] [Server thread/INFO]: This is default message 2, You can change this in config.yml
+[15:39:19] [Server thread/INFO]: This is default message 3, You can change this in config.yml
+[15:39:29] [Server thread/INFO]: This is default message 4, You can change this in config.yml
+[15:39:39] [Server thread/INFO]: This is default message 5, You can change this in config.yml
+[15:39:49] [Server thread/INFO]: This is default message 6, You can change this in config.yml
+[15:39:59] [Server thread/INFO]: This is default message 1, Please change this in config.yml
+[15:40:09] [Server thread/INFO]: This is default message 2, You can change this in config.yml
+[15:40:19] [Server thread/INFO]: This is default message 3, You can change this in config.yml
+[15:40:29] [Server thread/INFO]: This is default message 4, You can change this in config.yml
+[15:40:39] [Server thread/INFO]: This is default message 5, You can change this in config.yml
+[15:40:49] [Server thread/INFO]: This is default message 6, You can change this in config.yml
+[15:40:59] [Server thread/INFO]: This is default message 1, Please change this in config.yml
+[15:41:09] [Server thread/INFO]: This is default message 2, You can change this in config.yml
+[15:41:19] [Server thread/INFO]: This is default message 3, You can change this in config.yml
+[15:41:29] [Server thread/INFO]: This is default message 4, You can change this in config.yml
+[15:41:39] [Server thread/INFO]: This is default message 5, You can change this in config.yml
+[15:41:49] [Server thread/INFO]: This is default message 6, You can change this in config.yml
+[15:41:59] [Server thread/INFO]: This is default message 1, Please change this in config.yml
+[15:42:09] [Server thread/INFO]: This is default message 2, You can change this in config.yml
+[15:42:19] [Server thread/INFO]: This is default message 3, You can change this in config.yml
+[15:42:29] [Server thread/INFO]: This is default message 4, You can change this in config.yml
+[15:42:39] [Server thread/INFO]: This is default message 5, You can change this in config.yml
+[15:42:49] [Server thread/INFO]: This is default message 6, You can change this in config.yml
+[15:42:59] [Server thread/INFO]: This is default message 1, Please change this in config.yml
+[15:43:09] [Server thread/INFO]: This is default message 2, You can change this in config.yml
+[15:43:19] [Server thread/INFO]: This is default message 3, You can change this in config.yml
+[15:43:29] [Server thread/INFO]: This is default message 4, You can change this in config.yml
+[15:43:39] [Server thread/INFO]: This is default message 5, You can change this in config.yml
+[15:43:49] [Server thread/INFO]: This is default message 6, You can change this in config.yml
+[15:43:59] [Server thread/INFO]: This is default message 1, Please change this in config.yml
+[15:44:09] [Server thread/INFO]: This is default message 2, You can change this in config.yml
+[15:44:19] [Server thread/INFO]: This is default message 3, You can change this in config.yml
+[15:44:29] [Server thread/INFO]: This is default message 4, You can change this in config.yml
+[15:44:39] [Server thread/INFO]: This is default message 5, You can change this in config.yml
+[15:44:49] [Server thread/INFO]: This is default message 6, You can change this in config.yml
+[15:44:59] [Server thread/INFO]: This is default message 1, Please change this in config.yml
+[15:45:09] [Server thread/INFO]: This is default message 2, You can change this in config.yml
+[15:45:19] [Server thread/INFO]: This is default message 3, You can change this in config.yml
+[15:45:29] [Server thread/INFO]: This is default message 4, You can change this in config.yml
+[15:45:39] [Server thread/INFO]: This is default message 5, You can change this in config.yml
+[15:45:49] [Server thread/INFO]: This is default message 6, You can change this in config.yml
+[15:45:59] [Server thread/INFO]: This is default message 1, Please change this in config.yml
+[15:46:09] [Server thread/INFO]: This is default message 2, You can change this in config.yml
+[15:46:19] [Server thread/INFO]: This is default message 3, You can change this in config.yml
+[15:46:29] [Server thread/INFO]: This is default message 4, You can change this in config.yml
+[15:46:39] [Server thread/INFO]: This is default message 5, You can change this in config.yml
+[15:46:49] [Server thread/INFO]: This is default message 6, You can change this in config.yml
+[15:46:59] [Server thread/INFO]: This is default message 1, Please change this in config.yml
+[15:47:09] [Server thread/INFO]: This is default message 2, You can change this in config.yml
+[15:47:19] [Server thread/INFO]: This is default message 3, You can change this in config.yml
+[15:47:29] [Server thread/INFO]: This is default message 4, You can change this in config.yml
+[15:47:39] [Server thread/INFO]: This is default message 5, You can change this in config.yml
+[15:47:49] [Server thread/INFO]: This is default message 6, You can change this in config.yml
+[15:47:59] [Server thread/INFO]: This is default message 1, Please change this in config.yml
+[15:48:09] [Server thread/INFO]: This is default message 2, You can change this in config.yml
+[15:48:19] [Server thread/INFO]: This is default message 3, You can change this in config.yml
+[15:48:29] [Server thread/INFO]: This is default message 4, You can change this in config.yml
+[15:48:39] [Server thread/INFO]: This is default message 5, You can change this in config.yml
+[15:48:49] [Server thread/INFO]: This is default message 6, You can change this in config.yml
+[15:48:59] [Server thread/INFO]: This is default message 1, Please change this in config.yml
+[15:49:09] [Server thread/INFO]: This is default message 2, You can change this in config.yml
+[15:49:19] [Server thread/INFO]: This is default message 3, You can change this in config.yml
+[15:49:29] [Server thread/INFO]: This is default message 4, You can change this in config.yml
+[15:49:39] [Server thread/INFO]: This is default message 5, You can change this in config.yml
+[15:49:49] [Server thread/INFO]: This is default message 6, You can change this in config.yml
+[15:49:59] [Server thread/INFO]: This is default message 1, Please change this in config.yml
+[15:50:09] [Server thread/INFO]: This is default message 2, You can change this in config.yml
+[15:50:19] [Server thread/INFO]: This is default message 3, You can change this in config.yml
+[15:50:29] [Server thread/INFO]: This is default message 4, You can change this in config.yml
+[15:50:39] [Server thread/INFO]: This is default message 5, You can change this in config.yml
+[15:50:49] [Server thread/INFO]: This is default message 6, You can change this in config.yml
+[15:50:59] [Server thread/INFO]: This is default message 1, Please change this in config.yml
+[15:51:09] [Server thread/INFO]: This is default message 2, You can change this in config.yml
+[15:51:19] [Server thread/INFO]: This is default message 3, You can change this in config.yml
+[15:51:29] [Server thread/INFO]: This is default message 4, You can change this in config.yml
+[15:51:39] [Server thread/INFO]: This is default message 5, You can change this in config.yml
+[15:51:49] [Server thread/INFO]: This is default message 6, You can change this in config.yml
+[15:51:59] [Server thread/INFO]: This is default message 1, Please change this in config.yml
+[15:52:09] [Server thread/INFO]: This is default message 2, You can change this in config.yml
+[15:52:19] [Server thread/INFO]: This is default message 3, You can change this in config.yml
+[15:52:29] [Server thread/INFO]: This is default message 4, You can change this in config.yml
+[15:52:39] [Server thread/INFO]: This is default message 5, You can change this in config.yml
+[15:52:49] [Server thread/INFO]: This is default message 6, You can change this in config.yml
+[15:52:59] [Server thread/INFO]: This is default message 1, Please change this in config.yml
+[15:53:09] [Server thread/INFO]: This is default message 2, You can change this in config.yml
+[15:53:19] [Server thread/INFO]: This is default message 3, You can change this in config.yml
+[15:53:29] [Server thread/INFO]: This is default message 4, You can change this in config.yml
+[15:53:39] [Server thread/INFO]: This is default message 5, You can change this in config.yml
+[15:53:49] [Server thread/INFO]: This is default message 6, You can change this in config.yml
+[15:53:59] [Server thread/INFO]: This is default message 1, Please change this in config.yml
+[15:54:09] [Server thread/INFO]: This is default message 2, You can change this in config.yml
+[15:54:19] [Server thread/INFO]: This is default message 3, You can change this in config.yml
+[15:54:29] [Server thread/INFO]: This is default message 4, You can change this in config.yml
+[15:54:39] [Server thread/INFO]: This is default message 5, You can change this in config.yml
+[15:54:49] [Server thread/INFO]: This is default message 6, You can change this in config.yml
+[15:54:59] [Server thread/INFO]: This is default message 1, Please change this in config.yml
+[15:55:09] [Server thread/INFO]: This is default message 2, You can change this in config.yml
+[15:55:19] [Server thread/INFO]: This is default message 3, You can change this in config.yml
+[15:55:29] [Server thread/INFO]: This is default message 4, You can change this in config.yml
+[15:55:39] [Server thread/INFO]: This is default message 5, You can change this in config.yml
+[15:55:49] [Server thread/INFO]: This is default message 6, You can change this in config.yml
+[15:55:59] [Server thread/INFO]: This is default message 1, Please change this in config.yml
+[15:56:09] [Server thread/INFO]: This is default message 2, You can change this in config.yml
+[15:56:19] [Server thread/INFO]: This is default message 3, You can change this in config.yml
+[15:56:29] [Server thread/INFO]: This is default message 4, You can change this in config.yml
+[15:56:39] [Server thread/INFO]: This is default message 5, You can change this in config.yml
+[15:56:49] [Server thread/INFO]: This is default message 6, You can change this in config.yml
+[15:56:59] [Server thread/INFO]: This is default message 1, Please change this in config.yml
+[15:57:09] [Server thread/INFO]: This is default message 2, You can change this in config.yml
+[15:57:19] [Server thread/INFO]: This is default message 3, You can change this in config.yml
+[15:57:29] [Server thread/INFO]: This is default message 4, You can change this in config.yml
+[15:57:39] [Server thread/INFO]: This is default message 5, You can change this in config.yml
+[15:57:49] [Server thread/INFO]: This is default message 6, You can change this in config.yml
+[15:57:59] [Server thread/INFO]: This is default message 1, Please change this in config.yml
+[15:58:09] [Server thread/INFO]: This is default message 2, You can change this in config.yml
+[15:58:19] [Server thread/INFO]: This is default message 3, You can change this in config.yml
+[15:58:29] [Server thread/INFO]: This is default message 4, You can change this in config.yml
+[15:58:39] [Server thread/INFO]: This is default message 5, You can change this in config.yml
+[15:58:49] [Server thread/INFO]: This is default message 6, You can change this in config.yml
+[15:58:59] [Server thread/INFO]: This is default message 1, Please change this in config.yml
+[15:59:09] [Server thread/INFO]: This is default message 2, You can change this in config.yml
+[15:59:19] [Server thread/INFO]: This is default message 3, You can change this in config.yml
+[15:59:29] [Server thread/INFO]: This is default message 4, You can change this in config.yml
+[15:59:39] [Server thread/INFO]: This is default message 5, You can change this in config.yml
+[15:59:49] [Server thread/INFO]: This is default message 6, You can change this in config.yml
+[15:59:59] [Server thread/INFO]: This is default message 1, Please change this in config.yml
+[16:00:09] [Server thread/INFO]: This is default message 2, You can change this in config.yml
+[16:00:19] [Server thread/INFO]: This is default message 3, You can change this in config.yml
+[16:00:29] [Server thread/INFO]: This is default message 4, You can change this in config.yml
+[16:00:39] [Server thread/INFO]: This is default message 5, You can change this in config.yml
+[16:00:49] [Server thread/INFO]: This is default message 6, You can change this in config.yml
+[16:00:59] [Server thread/INFO]: This is default message 1, Please change this in config.yml
+[16:01:09] [Server thread/INFO]: This is default message 2, You can change this in config.yml
+[16:01:19] [Server thread/INFO]: This is default message 3, You can change this in config.yml
+[16:01:29] [Server thread/INFO]: This is default message 4, You can change this in config.yml
+[16:01:39] [Server thread/INFO]: This is default message 5, You can change this in config.yml
+[16:01:49] [Server thread/INFO]: This is default message 6, You can change this in config.yml
+[16:01:59] [Server thread/INFO]: This is default message 1, Please change this in config.yml
+[16:02:09] [Server thread/INFO]: This is default message 2, You can change this in config.yml
+[16:02:19] [Server thread/INFO]: This is default message 3, You can change this in config.yml
+[16:02:29] [Server thread/INFO]: This is default message 4, You can change this in config.yml
+[16:02:39] [Server thread/INFO]: This is default message 5, You can change this in config.yml
+[16:02:49] [Server thread/INFO]: This is default message 6, You can change this in config.yml
+[16:02:59] [Server thread/INFO]: This is default message 1, Please change this in config.yml
+[16:03:09] [Server thread/INFO]: This is default message 2, You can change this in config.yml
+[16:03:19] [Server thread/INFO]: This is default message 3, You can change this in config.yml
+[16:03:29] [Server thread/INFO]: This is default message 4, You can change this in config.yml
+[16:03:39] [Server thread/INFO]: This is default message 5, You can change this in config.yml
+[16:03:49] [Server thread/INFO]: This is default message 6, You can change this in config.yml
+[16:03:59] [Server thread/INFO]: This is default message 1, Please change this in config.yml
+[16:04:09] [Server thread/INFO]: This is default message 2, You can change this in config.yml
+[16:04:19] [Server thread/INFO]: This is default message 3, You can change this in config.yml
+[16:04:29] [Server thread/INFO]: This is default message 4, You can change this in config.yml
+[16:04:39] [Server thread/INFO]: This is default message 5, You can change this in config.yml
+[16:04:45] [Server thread/INFO]: Oluni_Official issued server command: /lp applyedits zso7uxixWi
+[16:04:45] [luckperms-command-executor/INFO]: [LP] LOG > (Oluni_Official) [G] (stmoder)
+[16:04:45] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add AkyloffCheck.bypass true
+[16:04:45] [luckperms-command-executor/INFO]: [LP] LOG > (Oluni_Official) [G] (moder)
+[16:04:45] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add litebans.tempban true
+[16:04:45] [luckperms-command-executor/INFO]: [LP] LOG > (Oluni_Official) [G] (moder)
+[16:04:45] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add litebans.exempt.mute true
+[16:04:45] [luckperms-command-executor/INFO]: [LP] LOG > (Oluni_Official) [G] (moder)
+[16:04:45] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add essentials.tpauto true
+[16:04:45] [luckperms-command-executor/INFO]: [LP] LOG > (Oluni_Official) [G] (moder)
+[16:04:45] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add essentials.tptoggle true
+[16:04:45] [luckperms-command-executor/INFO]: [LP] LOG > (Oluni_Official) [G] (moder)
+[16:04:45] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add litebans.mutechat true
+[16:04:45] [luckperms-command-executor/INFO]: [LP] LOG > (Oluni_Official) [G] (moder)
+[16:04:45] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add litebans.tempmute true
+[16:04:45] [luckperms-command-executor/INFO]: [LP] LOG > (Oluni_Official) [G] (moder)
+[16:04:45] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add essentials.tpacancel true
+[16:04:45] [luckperms-command-executor/INFO]: [LP] LOG > (Oluni_Official) [G] (moder)
+[16:04:45] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add essentials.gamemode true
+[16:04:45] [luckperms-command-executor/INFO]: [LP] LOG > (Oluni_Official) [G] (moder)
+[16:04:45] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add essentials.tpahere true
+[16:04:45] [luckperms-command-executor/INFO]: [LP] LOG > (Oluni_Official) [G] (moder)
+[16:04:45] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add litebans.staffhistory true
+[16:04:45] [luckperms-command-executor/INFO]: [LP] LOG > (Oluni_Official) [G] (moder)
+[16:04:45] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add essentials.tpa true
+[16:04:45] [luckperms-command-executor/INFO]: [LP] LOG > (Oluni_Official) [G] (moder)
+[16:04:45] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add essentials.tppos true
+[16:04:45] [luckperms-command-executor/INFO]: [LP] LOG > (Oluni_Official) [G] (moder)
+[16:04:45] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add essentials.tpr true
+[16:04:45] [luckperms-command-executor/INFO]: [LP] LOG > (Oluni_Official) [G] (moder)
+[16:04:45] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add bukkit.broadcast true
+[16:04:45] [luckperms-command-executor/INFO]: [LP] LOG > (Oluni_Official) [G] (moder)
+[16:04:45] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add AkyloffCheck.getloggs true
+[16:04:45] [luckperms-command-executor/INFO]: [LP] LOG > (Oluni_Official) [G] (moder)
+[16:04:45] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add litebans.banlist true
+[16:04:45] [luckperms-command-executor/INFO]: [LP] LOG > (Oluni_Official) [G] (moder)
+[16:04:45] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add litebans.unwarn true
+[16:04:45] [luckperms-command-executor/INFO]: [LP] LOG > (Oluni_Official) [G] (moder)
+[16:04:45] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add litebans.unmute true
+[16:04:45] [luckperms-command-executor/INFO]: [LP] LOG > (Oluni_Official) [G] (moder)
+[16:04:45] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add litebans.clearchat true
+[16:04:45] [luckperms-command-executor/INFO]: [LP] LOG > (Oluni_Official) [G] (moder)
+[16:04:45] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add essentials.tpoffline true
+[16:04:45] [luckperms-command-executor/INFO]: [LP] LOG > (Oluni_Official) [G] (moder)
+[16:04:45] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add litebans.checkmute true
+[16:04:45] [luckperms-command-executor/INFO]: [LP] LOG > (Oluni_Official) [G] (moder)
+[16:04:45] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add essentials.tpaccept true
+[16:04:45] [luckperms-command-executor/INFO]: [LP] LOG > (Oluni_Official) [G] (moder)
+[16:04:45] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add essentials.gamemode.all true
+[16:04:45] [luckperms-command-executor/INFO]: [LP] LOG > (Oluni_Official) [G] (moder)
+[16:04:45] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add litebans.mute true
+[16:04:45] [luckperms-command-executor/INFO]: [LP] LOG > (Oluni_Official) [G] (moder)
+[16:04:45] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add litebans.ban true
+[16:04:45] [luckperms-command-executor/INFO]: [LP] LOG > (Oluni_Official) [G] (moder)
+[16:04:45] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add essentials.tpohere true
+[16:04:45] [luckperms-command-executor/INFO]: [LP] LOG > (Oluni_Official) [G] (moder)
+[16:04:45] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add essentials.broadcast true
+[16:04:45] [luckperms-command-executor/INFO]: [LP] LOG > (Oluni_Official) [G] (moder)
+[16:04:45] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add essentials.tpdeny true
+[16:04:45] [luckperms-command-executor/INFO]: [LP] LOG > (Oluni_Official) [G] (moder)
+[16:04:45] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add essentials.gamemode.others false
+[16:04:45] [luckperms-command-executor/INFO]: [LP] LOG > (Oluni_Official) [G] (moder)
+[16:04:45] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add essentials.tp true
+[16:04:45] [luckperms-command-executor/INFO]: [LP] LOG > (Oluni_Official) [G] (moder)
+[16:04:45] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add litebans.checkban true
+[16:04:45] [luckperms-command-executor/INFO]: [LP] LOG > (Oluni_Official) [G] (moder)
+[16:04:45] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add litebans.warn true
+[16:04:45] [luckperms-command-executor/INFO]: [LP] LOG > (Oluni_Official) [G] (moder)
+[16:04:45] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add essentials.tphere true
+[16:04:45] [luckperms-command-executor/INFO]: [LP] LOG > (Oluni_Official) [G] (moder)
+[16:04:45] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add litebans.exempt.kick true
+[16:04:45] [luckperms-command-executor/INFO]: [LP] LOG > (Oluni_Official) [G] (moder)
+[16:04:45] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add litebans.unban true
+[16:04:45] [luckperms-command-executor/INFO]: [LP] LOG > (Oluni_Official) [G] (moder)
+[16:04:45] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add essentials.tpo true
+[16:04:45] [luckperms-command-executor/INFO]: [LP] LOG > (Oluni_Official) [G] (moder)
+[16:04:45] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add litebans.history true
+[16:04:45] [luckperms-command-executor/INFO]: [LP] LOG > (Oluni_Official) [G] (sthelper)
+[16:04:45] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add litebans.tempban true
+[16:04:45] [luckperms-command-executor/INFO]: [LP] LOG > (Oluni_Official) [G] (sthelper)
+[16:04:45] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add essentials.tptoggle true
+[16:04:45] [luckperms-command-executor/INFO]: [LP] LOG > (Oluni_Official) [G] (sthelper)
+[16:04:45] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add litebans.mute true
+[16:04:45] [luckperms-command-executor/INFO]: [LP] LOG > (Oluni_Official) [G] (sthelper)
+[16:04:45] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add litebans.ban true
+[16:04:45] [luckperms-command-executor/INFO]: [LP] LOG > (Oluni_Official) [G] (sthelper)
+[16:04:45] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add litebans.tempmute true
+[16:04:45] [luckperms-command-executor/INFO]: [LP] LOG > (Oluni_Official) [G] (sthelper)
+[16:04:45] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add essentials.tp true
+[16:04:45] [luckperms-command-executor/INFO]: [LP] LOG > (Oluni_Official) [G] (sthelper)
+[16:04:45] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add litebans.unmute.own true
+[16:04:45] [luckperms-command-executor/INFO]: [LP] LOG > (Oluni_Official) [G] (sthelper)
+[16:04:45] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add essentials.fly.safelogin true
+[16:04:45] [luckperms-command-executor/INFO]: [LP] LOG > (Oluni_Official) [G] (sthelper)
+[16:04:45] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add essentials.tphere true
+[16:04:45] [luckperms-command-executor/INFO]: [LP] LOG > (Oluni_Official) [G] (sthelper)
+[16:04:45] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add litebans.exempt.kick true
+[16:04:45] [luckperms-command-executor/INFO]: [LP] LOG > (Oluni_Official) [G] (sthelper)
+[16:04:45] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add litebans.banlist true
+[16:04:45] [luckperms-command-executor/INFO]: [LP] LOG > (Oluni_Official) [G] (sthelper)
+[16:04:45] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add essentials.tpo true
+[16:04:45] [luckperms-command-executor/INFO]: [LP] LOG > (Oluni_Official) [G] (helper)
+[16:04:45] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add AkyloffCheck.confess true
+[16:04:45] [luckperms-command-executor/INFO]: [LP] LOG > (Oluni_Official) [G] (helper)
+[16:04:45] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add essentials.tp true
+[16:04:45] [luckperms-command-executor/INFO]: [LP] LOG > (Oluni_Official) [G] (helper)
+[16:04:45] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add AkyloffCheck.ally true
+[16:04:45] [luckperms-command-executor/INFO]: [LP] LOG > (Oluni_Official) [G] (helper)
+[16:04:45] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add essentials.unban true
+[16:04:45] [luckperms-command-executor/INFO]: [LP] LOG > (Oluni_Official) [G] (helper)
+[16:04:45] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add essentials.tphere true
+[16:04:45] [luckperms-command-executor/INFO]: [LP] LOG > (Oluni_Official) [G] (helper)
+[16:04:45] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add litebans.unmute true
+[16:04:45] [luckperms-command-executor/INFO]: [LP] LOG > (Oluni_Official) [G] (helper)
+[16:04:45] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add AkyloffCheck.check true
+[16:04:45] [luckperms-command-executor/INFO]: [LP] LOG > (Oluni_Official) [G] (default)
+[16:04:45] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add aspawn.spawn true
+[16:04:49] [Server thread/INFO]: This is default message 6, You can change this in config.yml
+[16:04:59] [Server thread/INFO]: This is default message 1, Please change this in config.yml
+[16:05:09] [Server thread/INFO]: This is default message 2, You can change this in config.yml
+[16:05:19] [Server thread/INFO]: This is default message 3, You can change this in config.yml
+[16:05:29] [Server thread/INFO]: This is default message 4, You can change this in config.yml
+[16:05:37] [Server thread/INFO]: Oluni_Official issued server command: /spawn
+[16:05:37] [Server thread/WARN]: Oluni_Official moved too quickly! -7.441990035635399,-1.0,18.55605176817454
+[16:05:39] [Server thread/INFO]: This is default message 5, You can change this in config.yml
+[16:05:49] [Server thread/INFO]: This is default message 6, You can change this in config.yml
+[16:05:59] [Server thread/INFO]: This is default message 1, Please change this in config.yml
+[16:06:09] [Server thread/INFO]: This is default message 2, You can change this in config.yml
+[16:06:19] [Server thread/INFO]: This is default message 3, You can change this in config.yml
+[16:06:29] [Server thread/INFO]: This is default message 4, You can change this in config.yml
+[16:06:39] [Server thread/INFO]: This is default message 5, You can change this in config.yml
+[16:06:49] [Server thread/INFO]: This is default message 6, You can change this in config.yml
+[16:06:59] [Server thread/INFO]: This is default message 1, Please change this in config.yml
+[16:07:09] [Server thread/INFO]: This is default message 2, You can change this in config.yml
+[16:07:14] [Server thread/INFO]: Oluni_Official issued server command: /lp editor
+[16:07:19] [Server thread/INFO]: This is default message 3, You can change this in config.yml
+[16:07:29] [Server thread/INFO]: This is default message 4, You can change this in config.yml
+[16:07:39] [Server thread/INFO]: This is default message 5, You can change this in config.yml
+[16:07:49] [Server thread/INFO]: This is default message 6, You can change this in config.yml
+[16:07:59] [Server thread/INFO]: This is default message 1, Please change this in config.yml
+[16:08:05] [luckperms-worker-13/INFO]: [LP] LOG > (Oluni_Official) [G] (stmoder)
+[16:08:05] [luckperms-worker-13/INFO]: [LP] LOG > webeditor add essentials.gamemode.all true
+[16:08:05] [luckperms-worker-13/INFO]: [LP] LOG > (Oluni_Official) [G] (stmoder)
+[16:08:05] [luckperms-worker-13/INFO]: [LP] LOG > webeditor add litebans.* true
+[16:08:05] [luckperms-worker-13/INFO]: [LP] LOG > (Oluni_Official) [G] (stmoder)
+[16:08:05] [luckperms-worker-13/INFO]: [LP] LOG > webeditor add litebans.admin true
+[16:08:05] [luckperms-worker-13/INFO]: [LP] LOG > (Oluni_Official) [G] (stmoder)
+[16:08:05] [luckperms-worker-13/INFO]: [LP] LOG > webeditor add essentials.gamemode.* true
+[16:08:05] [luckperms-worker-13/INFO]: [LP] LOG > (Oluni_Official) [G] (stmoder)
+[16:08:05] [luckperms-worker-13/INFO]: [LP] LOG > webeditor add minecraft.command.gamemode true
+[16:08:05] [luckperms-worker-13/INFO]: [LP] LOG > (Oluni_Official) [G] (stmoder)
+[16:08:05] [luckperms-worker-13/INFO]: [LP] LOG > webeditor add minecraft.command.defaultgamemode true
+[16:08:05] [luckperms-worker-13/INFO]: [LP] LOG > (Oluni_Official) [G] (stmoder)
+[16:08:05] [luckperms-worker-13/INFO]: [LP] LOG > webeditor add essentials.gamemode.others false
+[16:08:09] [Server thread/INFO]: This is default message 2, You can change this in config.yml
+[16:08:19] [Server thread/INFO]: This is default message 3, You can change this in config.yml
+[16:08:29] [Server thread/INFO]: This is default message 4, You can change this in config.yml
+[16:08:29] [Server thread/INFO]: Oluni_Official issued server command: /whitelist off
+[16:08:31] [Server thread/INFO]: Oluni_Official issued server command: /whitelist on
+[16:08:32] [Server thread/INFO]: [Oluni_Official: Whitelist is now turned on]
+[16:08:39] [Server thread/INFO]: This is default message 5, You can change this in config.yml
+[16:08:49] [Server thread/INFO]: This is default message 6, You can change this in config.yml
+[16:08:59] [Server thread/INFO]: This is default message 1, Please change this in config.yml
+[16:09:09] [Server thread/INFO]: This is default message 2, You can change this in config.yml
+[16:09:19] [Server thread/INFO]: This is default message 3, You can change this in config.yml
+[16:09:29] [Server thread/INFO]: This is default message 4, You can change this in config.yml
+[16:09:39] [Server thread/INFO]: This is default message 5, You can change this in config.yml
+[16:09:49] [Server thread/INFO]: This is default message 6, You can change this in config.yml
+[16:09:59] [Server thread/INFO]: This is default message 1, Please change this in config.yml
+[16:10:09] [Server thread/INFO]: This is default message 2, You can change this in config.yml
+[16:10:19] [Server thread/INFO]: This is default message 3, You can change this in config.yml
+[16:10:29] [Server thread/INFO]: This is default message 4, You can change this in config.yml
+[16:10:39] [Server thread/INFO]: This is default message 5, You can change this in config.yml
+[16:10:49] [Server thread/INFO]: This is default message 6, You can change this in config.yml
+[16:10:59] [Server thread/INFO]: This is default message 1, Please change this in config.yml
+[16:11:09] [Server thread/INFO]: This is default message 2, You can change this in config.yml
+[16:11:19] [Server thread/INFO]: This is default message 3, You can change this in config.yml
+[16:11:29] [Server thread/INFO]: This is default message 4, You can change this in config.yml
+[16:11:39] [Server thread/INFO]: This is default message 5, You can change this in config.yml
+[16:11:49] [Server thread/INFO]: This is default message 6, You can change this in config.yml
+[16:11:59] [Server thread/INFO]: This is default message 1, Please change this in config.yml
+[16:12:09] [Server thread/INFO]: This is default message 2, You can change this in config.yml
+[16:12:19] [Server thread/INFO]: This is default message 3, You can change this in config.yml
+[16:12:29] [Server thread/INFO]: This is default message 4, You can change this in config.yml
+[16:12:39] [Server thread/INFO]: This is default message 5, You can change this in config.yml
+[16:12:49] [Server thread/INFO]: This is default message 6, You can change this in config.yml
+[16:12:59] [Server thread/INFO]: This is default message 1, Please change this in config.yml
+[16:13:09] [Server thread/INFO]: This is default message 2, You can change this in config.yml
+[16:13:19] [Server thread/INFO]: This is default message 3, You can change this in config.yml
+[16:13:29] [Server thread/INFO]: This is default message 4, You can change this in config.yml
+[16:13:39] [Server thread/INFO]: This is default message 5, You can change this in config.yml
+[16:13:49] [Server thread/INFO]: This is default message 6, You can change this in config.yml
+[16:13:59] [Server thread/INFO]: This is default message 1, Please change this in config.yml
+[16:14:09] [Server thread/INFO]: This is default message 2, You can change this in config.yml
+[16:14:19] [Server thread/INFO]: This is default message 3, You can change this in config.yml
+[16:14:29] [Server thread/INFO]: This is default message 4, You can change this in config.yml
+[16:14:39] [Server thread/INFO]: This is default message 5, You can change this in config.yml
+[16:14:49] [Server thread/INFO]: This is default message 6, You can change this in config.yml
+[16:14:59] [Server thread/INFO]: This is default message 1, Please change this in config.yml
+[16:15:09] [Server thread/INFO]: This is default message 2, You can change this in config.yml
+[16:15:19] [Server thread/INFO]: This is default message 3, You can change this in config.yml
+[16:15:29] [Server thread/INFO]: This is default message 4, You can change this in config.yml
+[16:15:39] [Server thread/INFO]: This is default message 5, You can change this in config.yml
+[16:15:48] [Server thread/INFO]: You've reloaded the config.yml config file.
+[16:15:53] [Server thread/INFO]: ★ ➥ Наш дискорд: dsc.gg/allmine
+[16:16:53] [Server thread/INFO]: ★ ➥ У нас открыт набор на хелпера! Подать заявку: http://allmine.rf.gd/
+[16:17:25] [Server thread/INFO]: You've reloaded the config.yml config file.
+[16:17:30] [Server thread/INFO]: ★ ➥ Наш дискорд: dsc.gg/allmine
+[16:18:50] [Server thread/INFO]: ★ ➥ У нас открыт набор на хелпера! Подать заявку: http://allmine.rf.gd/
+[16:20:10] [Server thread/INFO]: ★ ➥ Правила у нас можно посмотреть на форуме или в дискорд сервере.
+[16:20:58] [Server thread/INFO]: [Staff+] Staff+ is now auto saving...
+[16:21:30] [Server thread/INFO]: ★ ➥ Донаты покупать не нужно, они даються вам за киллы (/kills)
+[16:22:50] [Server thread/INFO]: ★ ➥ Наш дискорд: dsc.gg/allmine
+[16:24:10] [Server thread/INFO]: ★ ➥ У нас открыт набор на хелпера! Подать заявку: http://allmine.rf.gd/
+[16:25:30] [Server thread/INFO]: ★ ➥ Правила у нас можно посмотреть на форуме или в дискорд сервере.

@@ -1,0 +1,52 @@
+# All saved data for Staff+. Only modify this file if you know what you're doing!
+
+51e0220c-1747-3bf9-9636-a26de851e815:
+  name: Oluni_Official
+  glass-color: 0
+  reports: []
+  warnings: []
+  notes: []
+  alert-options:
+  - XRAY;true
+  - MENTION;true
+  - NAME_CHANGE;true
+799fb4a1-ba6f-49a9-9e38-ccdb30ea8b69:
+  name: Oluni_Official
+  glass-color: 0
+  reports: []
+  warnings: []
+  notes: []
+  alert-options:
+  - XRAY;true
+  - MENTION;true
+  - NAME_CHANGE;true
+55c6093c-efc9-343d-8179-4c5427b5161a:
+  name: notdistributelol
+  glass-color: 0
+  reports: []
+  warnings: []
+  notes: []
+  alert-options:
+  - XRAY;true
+  - MENTION;true
+  - NAME_CHANGE;true
+73fbb1f3-b577-379b-8146-8e66e0f27dcb:
+  name: OluniTest
+  glass-color: 0
+  reports: []
+  warnings: []
+  notes: []
+  alert-options:
+  - XRAY;true
+  - MENTION;true
+  - NAME_CHANGE;true
+376e5873-43ee-3001-b664-dc099162bb4a:
+  name: kzmnas5242
+  glass-color: 0
+  reports: []
+  warnings: []
+  notes: []
+  alert-options:
+  - XRAY;true
+  - MENTION;true
+  - NAME_CHANGE;true

@@ -1,0 +1,127 @@
+#  A DeluxeMenus advanced configuration guide
+#=========================================================
+menu_title: '&8➥            &6🔱 Kits 🔱'
+open_command:
+  - skits
+open_commands:
+  - '[sound] BLOCK_BEACON_ACTIVATE'
+size: 27
+# as always, only cool people can open this menu :)
+items:
+  'osn':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmU3MmIzOTVkMDYzZGM0ZmI0NzkyMTE5ZWViNDg1OGFmYjVkZGE1YzJlY2Q3MjM1NGFiYTYwODc4MjRkNDc1MCJ9fX0=
+    slot: 13
+    priority: 1
+    update: true
+    hide_attributes: true
+    display_name: '&aОсновной кит'
+    lore:
+      - ''
+      - '&aКит доступен всем.'
+      - '&7- Железный меч x1'
+      - '&7- Золотой топор x1'
+      - '&7- Щит x1'
+      - '&7- Тотем бессмертия x1'
+      - '&7- Золотые яблочки x5'
+      - '&7- Железный меч x1'
+      - '&7- Хилка (Специальная вещь) x1'
+      - '&7- Железная броня (фулл комплект) x1'
+      - ''
+    left_click_commands:
+      - '[player] kit osn'
+      - '[close]'
+  'vip':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDM3ZTExZTFkZTMzNzIxZjU0OTc4YzdiZTUzYmYxMGQxYTQzMGY1YjQ0YjRlM2QwMTJhMzNiNjFjYThmMDI2NyJ9fX0=
+    slot: 19
+    priority: 1
+    update: true
+    hide_attributes: true
+    display_name: '&6Кит VIP &7(/donate)'
+    lore:
+      - ''
+      - '&aКит доступен только &6VIP.'
+      - '&7- Железный топор x1'
+      - '&7- Щит x1'
+      - '&7- Тотем бессмертия x1'
+      - '&7- Золотые яблочки x5'
+      - '&7- Зачарованное золотое яблоко x1'
+      - '&7- Железный меч x1'
+      - '&7- Лук x1'
+      - '&7- Стрелы x10'
+      - '&7- Железная броня (Нагрудник, ботинки) x1'
+      - '&7- Алмазная броня (Шлем, поножи) x1'
+      - ''
+    left_click_commands:
+      - '[player] kit vip'
+      - '[close]'
+  'vip+':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjM4YzUzZTY2ZjI4Y2YyYzdmYjE1MjNjOWU1ZGUxYWUwY2Y0ZDdhMWZhZjU1M2U3NTI0OTRhOGQ2ZDJlMzIifX19
+    slot: 21
+    priority: 1
+    update: true
+    hide_attributes: true
+    display_name: '&6Кит VIP&c+ &7(/donate)'
+    lore:
+      - ''
+      - '&aКит доступен только &6VIP&c+&6.'
+      - '&7- Алмазный меч x1'
+      - '&7- Железный топор x1'
+      - '&7- Щит x1'
+      - '&7- Тотем бессмертия x1'
+      - '&7- Золотые яблочки x7'
+      - '&7- Зачарованное золотое яблоко x2'
+      - '&7- Лук x1'
+      - '&7- Стрелы отравления (5 сек.) x15'
+      - '&7- Алмазная броня (фулл комплект) x1'
+      - ''
+    left_click_commands:
+      - '[player] kit vip+'
+      - '[close]'
+  'mvp':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGNkZjg2Y2M0NjlhYjQ5MTU1ZTY3NWJiMzA0NDRjYjI2N2RjNDNkZmIzNTRkMTVkMWMwYzY2NWJlNTg1MjcifX19
+    slot: 23
+    priority: 1
+    update: true
+    hide_attributes: true
+    display_name: '&6Кит &bMVP &7(/donate)'
+    lore:
+      - ''
+      - '&aКит доступен только &bMVP.'
+      - '&7- Алмазный меч (Острота 2, Заг. Огня 1) x1'
+      - '&7- Железный топор (Острота 2) x1'
+      - '&7- Щит x1'
+      - '&7- Тотем бессмертия x1'
+      - '&7- Золотые яблочки x10'
+      - '&7- Зачарованное золотое яблоко x4'
+      - '&7- Лук (Сила 2, воспламенение) x1'
+      - '&7- Стрелы момент. урона x6'
+      - '&7- Спектральные стрелы x10'
+      - '&7- Алмазная броня (фулл комплект на 2 защиту) x1'
+      - ''
+    left_click_commands:
+      - '[player] kit mvp'
+      - '[close]'
+  'mvp+':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTY4NGYxMTQ4MGMwZmM5NzQ4MGVkMWI3MGMyMzEzOWJiNGZjZDYxNmNjOTY3ZTZjNzc5YmExZDJlZDU1In19fQ==
+    slot: 25
+    priority: 1
+    update: true
+    hide_attributes: true
+    display_name: '&6Кит &bMVP&c+ &7(/donate)'
+    lore:
+      - ''
+      - '&aКит доступен только &bMVP&c+&b.'
+      - '&7- Алмазный меч (Острота 2, Заг. Огня 1, Откидывание 2) x1'
+      - '&7- Алмазный топор (Острота 2) x1'
+      - '&7- Щит x1'
+      - '&7- Тотем бессмертия x2'
+      - '&7- Золотые яблочки x12'
+      - '&7- Зачарованное золотое яблоко x5'
+      - '&7- Лук (Сила 3, воспламенение) x1'
+      - '&7- Стрелы момент. урона x20'
+      - '&7- Алмазная броня (Защита 2, Шлем, Нагрудник, Ботинки) x1'
+      - '&7- Незеритовые поножи (Защита 2) x1'
+      - ''
+    left_click_commands:
+      - '[player] kit mvp+'
+      - '[close]'

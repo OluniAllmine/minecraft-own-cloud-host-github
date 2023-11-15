@@ -1,0 +1,77 @@
+kits:
+  osn:
+    delay: 95
+    items:
+    - iron_sword 1
+    - golden_axe 1
+    - shield 1 basecolor:16383998
+    - totem_of_undying 1
+    - golden_apple 5
+    - bone 1 name:&aХилка lore:&7Специальная_вещь_для_обычного_кита
+    - iron_boots 1
+    - iron_leggings 1
+    - iron_chestplate 1
+    - iron_helmet 1
+  vip:
+    delay: 160
+    items:
+    - iron_sword 1
+    - iron_axe 1
+    - golden_apple 5
+    - enchanted_golden_apple 1
+    - shield 1 basecolor:16383998
+    - totem_of_undying 1
+    - bow 1
+    - diamond_leggings 1
+    - iron_boots 1
+    - iron_sword 1
+    - arrow 10
+    - iron_chestplate 1
+    - diamond_helmet 1
+  vip+:
+    delay: 195
+    items:
+    - diamond_sword 1
+    - iron_axe 1
+    - totem_of_undying 1
+    - shield 1 basecolor:16383998
+    - golden_apple 7
+    - enchanted_golden_apple 2
+    - bow 1
+    - diamond_helmet 1
+    - diamond_chestplate 1
+    - poison_tipped_arrow 15
+    - diamond_leggings 1
+    - diamond_boots 1
+  mvp:
+    delay: 210
+    items:
+    - diamond_sword 1 fire_aspect:1 damage_all:2
+    - iron_axe 1 damage_all:2
+    - totem_of_undying 1
+    - shield 1 basecolor:16383998
+    - golden_apple 10
+    - enchanted_golden_apple 4
+    - bow 1 arrow_fire:1 arrow_damage:2
+    - diamond_chestplate 1 protection_environmental:2
+    - diamond_helmet 1 protection_environmental:2
+    - spectral_arrow 10
+    - harming_tipped_arrow 6
+    - diamond_boots 1 protection_environmental:2
+    - diamond_leggings 1 protection_environmental:2
+  mvp+:
+    delay: 260
+    items:
+    - diamond_sword 1 fire_aspect:1 knockback:2 damage_all:2
+    - diamond_axe 1 damage_all:2
+    - shield 1 basecolor:16383998
+    - totem_of_undying 1
+    - golden_apple 12
+    - enchanted_golden_apple 5
+    - bow 1 arrow_fire:1 arrow_damage:3
+    - diamond_chestplate 1 protection_environmental:2
+    - diamond_helmet 1 protection_environmental:2
+    - harming_tipped_arrow 20
+    - totem_of_undying 1
+    - netherite_leggings 1 protection_environmental:2
+    - diamond_boots 1 protection_environmental:2

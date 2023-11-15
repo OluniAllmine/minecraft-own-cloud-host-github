@@ -1,0 +1,116 @@
+General:
+    no-permission: "&cУ тебя нет разрешения на это действие!"
+    prefix: "&d❖ Ngrok > "
+    buy-price-format: '&7Цена покупки: &a$%price%'
+    sell-price-format: '&7Цена продажи: &a$%price%'
+    price-format: "#0.00"
+    buy-action: ""
+    sell-action: ""
+    trade-action: ""
+Errors:
+    contains-space: "Эта фраза не может содержать пробелов"
+    default-shop-set-trader-disabled: "&cНевозможно поменять обычный магазин, т.к. других магазинов нет"
+    shop-disabled-no-other-shop-enabled: "&cНет других включённых магазинов. Торговец отключён!"
+    rows-less-than-zero: "&cЗначение рядов не может равняться или быть меньше, чем 0!"
+    rows-more-than-six: "&cЗначение рядов не может быть больше 6"
+    invalid-number: "&c%input% - некорректное число!"
+    negative-percentage: "&cПроцентаж не может быть отрицательным!"
+    invalid-percentage: "&c%input% - некорректный процентаж"
+    negative-price: "&cЦена не может быть отрицательной"
+    invalid-price: "&c%input% - некорректная цена"
+    discount-price-higher: "&cСкидочная цена не может быть выше цены продажи!"
+    invalid-time-format: "&cНекорректный формат времени! Примеры: 8h, 7d, и т.д.!"
+    discount-0-seconds: "&cСкидка должна длиться как минимум 1 секунду"
+    no-commands-found: "&cКоманд не найдено!"
+    not-a-number: "&c%input% - не число"
+    invalid-gui-name: "&c%input% - некорректное название gui!"
+    not-a-shop-gui: "&c%input% - не магазин gui!"
+    not-holding-item: "&cВы должны держать какой-либо предмет в руке!"
+
+Transactions:
+    no-permission: "&cУ тебя нет разрешения, чтобы %action% этот предмет!"
+    trade-limit-reached: "&cВы достигли лимита сделок! Возвращайся позже через %time%"
+    insufficient-items: "&cУ тебя недостаточно вещей, чтобы продать этот предмет!"
+    insufficient-funds: "&cУ тебя недостаточно денег, чтобы купить это! Вам нужно на %needed% больше!"
+    no-inventory-space: "&cУ тебя недостаточно места в инвентаре!"
+    item-not-sold: "&cНе смог продать товар, потому что %reason%"
+    bought-item: "&aВы успешно купили %item% за %price%"
+    sold-item: "&aВы успешно продали %item% за %price%"
+    traded-item: "&aСделка успешна!"
+NPC:
+    gui-link: "&aСвязываем этого NPC с gui &e%shop% &a!"
+    no-gui-attached: "&cНет gui, присоеденённых к этому npc!"
+    trait-added: "&aХарактерная черта успешно добавлена к npc %id%"
+    invalid-npc-id: "&c%input% - некорректный id npc!"
+
+
+Shop:
+    shop-name-changed: "&aНазвание магазина изменено на &e%shop-name%"
+    shop-permission-changed: "&aРазрешение магазина изменено на &e%shop-permission%"
+    shop-command-changed: "&aКоманда магазина изменена на &e%shop-command%"
+    shop-already-created: "%input% уже является названием какого-то магазина"
+    could-not-find-shop: "&cНе можем найти магазин с названием %input%"
+    shop-deleted: "&e%shop% &cудалён!"
+    shop-disabled: "&cЭтот магазин выключен!"
+    shop-created: "&aМагазин создан!"
+    shop-title: "%shop-name% - %page-name% - %shop-mode%"
+    shop-mode-buy: "Купить"
+    shop-mode-sell: "Продать"
+    shop-mode-trade: "Обмен"
+
+Page:
+    page-name-changed: "&aНазвание магазина изменено на &e%page-name%"
+    page-size-changed: "&aРазмер страницы изменён на &e%page-size%"
+    page-permission-changed: "&aРазрешение страницы изменено на &e%page-permission%"
+    page-already-created: "%input% уже используется в этом магазине!"
+    page-deleted: "&e%page-name% &cудалён!"
+
+Mirror:
+    buy-shop-copied: "&aМагазин покупки скопирован!"
+    sell-shop-copied: "&aМагазин продажи скопирован!"
+    trade-shop-copied: "&aМагазин торга скопирован!"
+    buy-shop-pasted: "&aВставленно в данный магазин покупки"
+    sell-shop-pasted: "&aВставленно в данный магазин продажи"
+    trade-shop-pasted: "&aВставленно в данный магазин торга"
+
+Items:
+    broadcast-message-changed: "&aНовостное сообщение изменено на %message%"
+    trade-limit-time-changed: "&aЛимит всремени торгов изменён на %limit-time%"
+    trade-limit-changed: "&aЛимит торгов изменён на %limit%"
+    item-name-changed: "&aНазвание предмета изменено на %name%"
+    item-permission-changed: "&aРазрешение предмета изменено на %permission%"
+    description-deleted: "&c%line% удалено!"
+    description-added: "&a%line% создано!"
+    description-changed: "&aОписание изменено на %line%"
+    command-deleted: "&c%command% удалено!"
+    command-added: "&a%command% удалено!"
+    command-changed: "&aКоманда изменена на %command%"
+    no-permission: "&cУ тебя нет доступа к этому!"
+
+
+
+#Описание предметов (!ТОЛЬКО КОМАНДНЫЕ И РАЗРЕШЁННЫЕ ДЛЯ СДЕЛОК ПРЕДМЕТЫ!)
+#Скоро добавится описание сделок
+#Изменяйте только текст после знака ":". Не переписывайте тест перед ним
+#Следующий команды могут быть изменены:
+#%price% = будет изменено на установку цены сделки
+#%discount_start% = будет изменено на начало скидки (дата)
+#%discount_price% = будет изменено на цену скидки (если таковая установлена)
+#%discount_duration% будет изменено на длительность в секундах
+#%discount_end% будет изменено на конец скидки (дата)
+#%trade_player% = будет изменено на уже купленное игроком количество
+#%trade_limit_max% = будет изменено на установку лимита
+#%trade_limit_time_left% будет изменено на время, оставшееся до того, как лимит будет сброшен
+Display-items:
+    price: "&3Цена: &e%price%"
+    discount-start: "&7Начало скидки: &6%discount_start%"
+    discount-price: "&bЦена со скидкой: &c%discount_price%"
+    discount-duration: "&bПродолжительность скидки: %discount_duration%"
+    discount-end: "&bНачало скидки: %discount_end%"
+    trade-limit: "%trade_player%/%trade_limit_max%"
+    trade-limit-seconds: "Осталось несколько секунд: %trade_limit_time_left%"
+    obtainable-items: "&bДоступные предметы:"
+    needed-items: "&bНеобходимые предметы:"
+    trade-price: "&aТорговая цена: %trade-price%"
+
+    
